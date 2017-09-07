@@ -1,0 +1,29 @@
+[up 6.28s] ds-identify 
+policy loaded: mode=report report=false found=all maybe=all notfound=enabled
+/etc/cloud/cloud.cfg.d/99-digitalocean.cfg set datasource_list: [ ConfigDrive, DigitalOcean, NoCloud, None ]
+DMI_PRODUCT_NAME=Droplet
+DMI_SYS_VENDOR=DigitalOcean
+DMI_PRODUCT_SERIAL=51501400
+DMI_PRODUCT_UUID=14E52E39-E767-447A-8A22-6B699BA104C7
+PID_1_PRODUCT_NAME=unavailable
+DMI_CHASSIS_ASSET_TAG=
+FS_LABELS=cloudimg-rootfs
+KERNEL_CMDLINE=BOOT_IMAGE=/boot/vmlinuz-4.4.0-83-generic root=LABEL=cloudimg-rootfs ro console=tty1 console=ttyS0
+VIRT=kvm
+UNAME_KERNEL_NAME=Linux
+UNAME_KERNEL_RELEASE=4.4.0-83-generic
+UNAME_KERNEL_VERSION=#106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+UNAME_MACHINE=x86_64
+UNAME_NODENAME=ubuntu
+UNAME_OPERATING_SYSTEM=GNU/Linux
+DSNAME=
+DSLIST=ConfigDrive DigitalOcean NoCloud None
+MODE=report
+ON_FOUND=all
+ON_MAYBE=all
+ON_NOTFOUND=enabled
+pid=590 ppid=575
+is_container=false
+check for 'DigitalOcean' returned found
+Found single datasource: DigitalOcean
+[up 6.31s] returning 0

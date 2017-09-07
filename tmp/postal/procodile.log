@@ -1,0 +1,1234 @@
+[m18:26:56 system          | [0mProcodile supervisor started with PID 2104
+[m18:26:56 system          | [0mApplication root is /opt/postal/app
+[m18:26:56 system          | [0mReloading configuration
+[35m18:26:56 web.1           | [0mStarted with PID 2110
+[36m18:26:56 worker.1        | [0mStarted with PID 2112
+[32m18:26:56 cron.1          | [0mStarted with PID 2114
+[m18:26:56 control         | [0mListening at /tmp/postal/pids/procodile.sock
+[33m18:26:56 smtp.1          | [0mStarted with PID 2116
+[34m18:26:56 requeuer.1      | [0mStarted with PID 2119
+[35m18:26:58 web.1           | [0m[35m=> [0mPuma starting in single mode...
+[35m18:26:58 web.1           | [0m[35m=> [0m* Version 3.8.2 (ruby 2.3.4-p301), codename: Sassy Salamander
+[35m18:26:58 web.1           | [0m[35m=> [0m* Min threads: 5, max threads: 5
+[35m18:26:58 web.1           | [0m[35m=> [0m* Environment: production
+[35m18:27:04 web.1           | [0m[35m=> [0m* Listening on tcp://127.0.0.1:5000
+[35m18:27:04 web.1           | [0m[35m=> [0mUse Ctrl-C to stop
+[m07:59:38 system          | [0mReloading configuration
+[m07:59:38 system          | [0mRestarting all Postal processes
+[35m07:59:38 web.1           | [0mRestarting using usr1 mode
+[35m07:59:38 web.1           | [0mSent USR1 signal to process 2110
+[36m07:59:38 worker.1        | [0mRestarting using start-term mode
+[36m07:59:38 worker.2        | [0mStarted with PID 12014
+[36m07:59:38 worker.1        | [0mSending TERM to 2112
+[32m07:59:38 cron.1          | [0mRestarting using term-start mode
+[32m07:59:38 cron.1          | [0mSending TERM to 2114
+[33m07:59:38 smtp.1          | [0mRestarting using usr1 mode
+[33m07:59:38 smtp.1          | [0mSent USR1 signal to process 2116
+[34m07:59:38 requeuer.1      | [0mRestarting using term-start mode
+[34m07:59:38 requeuer.1      | [0mSending TERM to 2119
+[32m07:59:38 cron.1          | [0m[32m=> [0mExiting...
+[33m07:59:38 smtp.1          | [0m[33m=> [0mReceived USR1 signal, respawning.
+[34m07:59:38 requeuer.2      | [0mStarted with PID 12024
+[32m07:59:38 cron.2          | [0mStarted with PID 12026
+[36m07:59:40 worker.1        | [0mRemoved PID file
+[32m07:59:40 cron.1          | [0mRemoved PID file
+[34m07:59:40 requeuer.1      | [0mRemoved PID file
+[33m07:59:47 smtp.1          | [0m[33m=> [0mReceived TERM signal, shutting down.
+[33m07:59:49 smtp.1          | [0mPID file changed. Updated pid to 12017
+[m02:06:32 system          | [0mReloading configuration
+[m02:06:32 system          | [0mRestarting all Postal processes
+[35m02:06:32 web.1           | [0mRestarting using usr1 mode
+[35m02:06:32 web.1           | [0mSent USR1 signal to process 2110
+[36m02:06:32 worker.2        | [0mRestarting using start-term mode
+[36m02:06:32 worker.3        | [0mStarted with PID 25406
+[36m02:06:32 worker.2        | [0mSending TERM to 12014
+[32m02:06:32 cron.2          | [0mRestarting using term-start mode
+[32m02:06:32 cron.2          | [0mSending TERM to 12026
+[33m02:06:32 smtp.1          | [0mRestarting using usr1 mode
+[33m02:06:32 smtp.1          | [0mSent USR1 signal to process 12017
+[34m02:06:32 requeuer.2      | [0mRestarting using term-start mode
+[34m02:06:32 requeuer.2      | [0mSending TERM to 12024
+[33m02:06:32 smtp.1          | [0m[33m=> [0mReceived USR1 signal, respawning.
+[32m02:06:32 cron.2          | [0m[32m=> [0mExiting...
+[32m02:06:33 cron.3          | [0mStarted with PID 25417
+[34m02:06:33 requeuer.3      | [0mStarted with PID 25416
+[36m02:06:34 worker.2        | [0mRemoved PID file
+[32m02:06:34 cron.2          | [0mRemoved PID file
+[34m02:06:34 requeuer.2      | [0mRemoved PID file
+[33m02:06:41 smtp.1          | [0m[33m=> [0mReceived TERM signal, shutting down.
+[33m02:06:43 smtp.1          | [0mPID file changed. Updated pid to 25410
+[m02:07:45 system          | [0mReloading configuration
+[m02:07:45 system          | [0mRestarting all Postal processes
+[35m02:07:45 web.1           | [0mRestarting using usr1 mode
+[35m02:07:45 web.1           | [0mSent USR1 signal to process 2110
+[36m02:07:45 worker.3        | [0mRestarting using start-term mode
+[36m02:07:45 worker.4        | [0mStarted with PID 25510
+[36m02:07:45 worker.3        | [0mSending TERM to 25406
+[32m02:07:45 cron.3          | [0mRestarting using term-start mode
+[32m02:07:45 cron.3          | [0mSending TERM to 25417
+[33m02:07:45 smtp.1          | [0mRestarting using usr1 mode
+[33m02:07:45 smtp.1          | [0mSent USR1 signal to process 25410
+[34m02:07:45 requeuer.3      | [0mRestarting using term-start mode
+[34m02:07:45 requeuer.3      | [0mSending TERM to 25416
+[32m02:07:45 cron.3          | [0m[32m=> [0mExiting...
+[33m02:07:45 smtp.1          | [0m[33m=> [0mReceived USR1 signal, respawning.
+[34m02:07:46 requeuer.4      | [0mStarted with PID 25523
+[32m02:07:46 cron.4          | [0mStarted with PID 25522
+[32m02:07:46 cron.3          | [0mRemoved PID file
+[34m02:07:46 requeuer.3      | [0mRemoved PID file
+[36m02:07:49 worker.3        | [0mRemoved PID file
+[33m02:07:52 smtp.1          | [0m[33m=> [0mReceived TERM signal, shutting down.
+[33m02:07:55 smtp.1          | [0mPID file changed. Updated pid to 25514
+[m02:08:17 system          | [0mReloading configuration
+[31m02:08:17 fast.1          | [0mStarted with PID 25585
+[31m02:08:20 fast.1          | [0m[31m=> [0mrake aborted!
+[31m02:08:20 fast.1          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m02:08:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m02:08:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m02:08:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m02:08:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m02:08:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m02:08:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m02:08:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m02:08:20 fast.1          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m02:08:20 fast.1          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m02:08:20 fast.1          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m02:08:22 fast.1          | [0mProcess has stopped. Respawning...
+[31m02:08:22 fast.1          | [0mStarted with PID 25593
+[31m02:08:25 fast.1          | [0m[31m=> [0mrake aborted!
+[31m02:08:25 fast.1          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m02:08:25 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m02:08:25 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m02:08:25 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m02:08:25 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m02:08:25 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m02:08:25 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m02:08:25 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m02:08:25 fast.1          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m02:08:25 fast.1          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m02:08:25 fast.1          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m02:08:28 fast.1          | [0mProcess has stopped. Respawning...
+[31m02:08:28 fast.1          | [0mStarted with PID 25605
+[31m02:08:32 fast.1          | [0m[31m=> [0mrake aborted!
+[31m02:08:32 fast.1          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m02:08:32 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m02:08:32 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m02:08:32 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m02:08:32 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m02:08:32 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m02:08:32 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m02:08:32 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m02:08:32 fast.1          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m02:08:32 fast.1          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m02:08:32 fast.1          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m02:08:34 fast.1          | [0mProcess has stopped. Respawning...
+[31m02:08:34 fast.1          | [0mStarted with PID 25611
+[31m02:08:37 fast.1          | [0m[31m=> [0mrake aborted!
+[31m02:08:37 fast.1          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m02:08:37 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m02:08:37 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m02:08:37 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m02:08:37 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m02:08:37 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m02:08:37 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m02:08:37 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m02:08:37 fast.1          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m02:08:37 fast.1          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m02:08:37 fast.1          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m02:08:40 fast.1          | [0mProcess has stopped. Respawning...
+[31m02:08:40 fast.1          | [0mStarted with PID 25634
+[31m02:08:44 fast.1          | [0m[31m=> [0mrake aborted!
+[31m02:08:44 fast.1          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m02:08:44 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m02:08:44 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m02:08:44 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m02:08:44 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m02:08:44 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m02:08:44 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m02:08:44 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m02:08:44 fast.1          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m02:08:44 fast.1          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m02:08:44 fast.1          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m02:08:46 fast.1          | [0mProcess has stopped. Respawning...
+[31m02:08:46 fast.1          | [0mStarted with PID 25646
+[31m02:08:50 fast.1          | [0m[31m=> [0mrake aborted!
+[31m02:08:50 fast.1          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m02:08:50 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m02:08:50 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m02:08:50 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m02:08:50 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m02:08:50 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m02:08:50 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m02:08:50 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m02:08:50 fast.1          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m02:08:50 fast.1          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m02:08:50 fast.1          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m02:08:52 fast.1          | [0m[41;37mWarning:[0m[31m this process has been respawned 5 times and keeps dying.[0m
+[31m02:08:52 fast.1          | [0m[31mIt will not be respawned automatically any longer and will no longer be managed.[0m
+[31m02:08:52 fast.1          | [0mRemoved PID file
+[m02:10:31 system          | [0mReloading configuration
+[m02:10:31 system          | [0mRestarting all Postal processes
+[35m02:10:31 web.1           | [0mRestarting using usr1 mode
+[35m02:10:31 web.1           | [0mSent USR1 signal to process 2110
+[36m02:10:31 worker.4        | [0mRestarting using start-term mode
+[36m02:10:31 worker.5        | [0mStarted with PID 25726
+[36m02:10:31 worker.4        | [0mSending TERM to 25510
+[32m02:10:31 cron.4          | [0mRestarting using term-start mode
+[32m02:10:31 cron.4          | [0mSending TERM to 25522
+[33m02:10:31 smtp.1          | [0mRestarting using usr1 mode
+[33m02:10:31 smtp.1          | [0mSent USR1 signal to process 25514
+[34m02:10:31 requeuer.4      | [0mRestarting using term-start mode
+[34m02:10:31 requeuer.4      | [0mSending TERM to 25523
+[31m02:10:31 fast.1          | [0mRestarting using term-start mode
+[31m02:10:31 fast.1          | [0mProcess already stopped
+[33m02:10:31 smtp.1          | [0m[33m=> [0mReceived USR1 signal, respawning.
+[32m02:10:31 cron.4          | [0m[32m=> [0mExiting...
+[31m02:10:31 fast.2          | [0mStarted with PID 25733
+[32m02:10:31 cron.4          | [0mRemoved PID file
+[34m02:10:31 requeuer.4      | [0mRemoved PID file
+[31m02:10:31 fast.1          | [0mRemoved PID file
+[32m02:10:31 cron.5          | [0mStarted with PID 25741
+[34m02:10:31 requeuer.5      | [0mStarted with PID 25740
+[36m02:10:34 worker.4        | [0mRemoved PID file
+[m02:10:35 system          | [0mReloading configuration
+[33m02:10:39 smtp.1          | [0m[33m=> [0mReceived TERM signal, shutting down.
+[33m02:10:40 smtp.1          | [0mPID file changed. Updated pid to 25731
+[31m02:10:40 fast.2          | [0m[31m=> [0mrake aborted!
+[31m02:10:40 fast.2          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m02:10:40 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m02:10:40 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m02:10:40 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m02:10:40 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m02:10:40 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m02:10:40 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m02:10:40 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m02:10:40 fast.2          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m02:10:40 fast.2          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m02:10:40 fast.2          | [0m[31m=> [0m(See full trace by running task with --trace)
+[m02:10:40 system          | [0mReloading configuration
+[31m02:10:43 fast.2          | [0mProcess has stopped. Respawning...
+[31m02:10:43 fast.2          | [0mStarted with PID 25809
+[31m02:10:47 fast.2          | [0m[31m=> [0mrake aborted!
+[31m02:10:47 fast.2          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m02:10:47 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m02:10:47 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m02:10:47 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m02:10:47 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m02:10:47 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m02:10:47 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m02:10:47 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m02:10:47 fast.2          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m02:10:47 fast.2          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m02:10:47 fast.2          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m02:10:49 fast.2          | [0mProcess has stopped. Respawning...
+[31m02:10:49 fast.2          | [0mStarted with PID 25815
+[31m02:10:52 fast.2          | [0m[31m=> [0mrake aborted!
+[31m02:10:52 fast.2          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m02:10:52 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m02:10:52 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m02:10:52 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m02:10:52 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m02:10:52 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m02:10:52 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m02:10:52 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m02:10:52 fast.2          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m02:10:52 fast.2          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m02:10:52 fast.2          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m02:10:55 fast.2          | [0mProcess has stopped. Respawning...
+[31m02:10:55 fast.2          | [0mStarted with PID 25834
+[31m02:10:59 fast.2          | [0m[31m=> [0mrake aborted!
+[31m02:10:59 fast.2          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m02:10:59 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m02:10:59 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m02:10:59 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m02:10:59 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m02:10:59 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m02:10:59 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m02:10:59 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m02:10:59 fast.2          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m02:10:59 fast.2          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m02:10:59 fast.2          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m02:11:01 fast.2          | [0mProcess has stopped. Respawning...
+[31m02:11:01 fast.2          | [0mStarted with PID 25846
+[31m02:11:04 fast.2          | [0m[31m=> [0mrake aborted!
+[31m02:11:04 fast.2          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m02:11:04 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m02:11:04 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m02:11:04 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m02:11:04 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m02:11:04 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m02:11:04 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m02:11:04 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m02:11:04 fast.2          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m02:11:04 fast.2          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m02:11:04 fast.2          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m02:11:07 fast.2          | [0mProcess has stopped. Respawning...
+[31m02:11:07 fast.2          | [0mStarted with PID 25850
+[31m02:11:11 fast.2          | [0m[31m=> [0mrake aborted!
+[31m02:11:11 fast.2          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m02:11:11 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m02:11:11 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m02:11:11 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m02:11:11 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m02:11:11 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m02:11:11 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m02:11:11 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m02:11:11 fast.2          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m02:11:11 fast.2          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m02:11:11 fast.2          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m02:11:13 fast.2          | [0m[41;37mWarning:[0m[31m this process has been respawned 5 times and keeps dying.[0m
+[31m02:11:13 fast.2          | [0m[31mIt will not be respawned automatically any longer and will no longer be managed.[0m
+[31m02:11:13 fast.2          | [0mRemoved PID file
+[m19:11:05 system          | [0mReloading configuration
+[m19:39:12 system          | [0mReloading configuration
+[m19:39:12 system          | [0mRestarting all Postal processes
+[35m19:39:12 web.1           | [0mRestarting using usr1 mode
+[35m19:39:12 web.1           | [0mSent USR1 signal to process 2110
+[36m19:39:12 worker.5        | [0mRestarting using start-term mode
+[36m19:39:12 worker.6        | [0mStarted with PID 2671
+[36m19:39:12 worker.5        | [0mSending TERM to 25726
+[32m19:39:12 cron.5          | [0mRestarting using term-start mode
+[32m19:39:12 cron.5          | [0mSending TERM to 25741
+[33m19:39:12 smtp.1          | [0mRestarting using usr1 mode
+[32m19:39:12 cron.5          | [0m[32m=> [0mExiting...
+[33m19:39:12 smtp.1          | [0mSent USR1 signal to process 25731
+[34m19:39:12 requeuer.5      | [0mRestarting using term-start mode
+[34m19:39:12 requeuer.5      | [0mSending TERM to 25740
+[31m19:39:12 fast.2          | [0mRestarting using term-start mode
+[31m19:39:12 fast.2          | [0mProcess already stopped
+[33m19:39:12 smtp.1          | [0m[33m=> [0mReceived USR1 signal, respawning.
+[31m19:39:12 fast.3          | [0mStarted with PID 2682
+[31m19:39:12 fast.2          | [0mRemoved PID file
+[34m19:39:13 requeuer.6      | [0mStarted with PID 2687
+[32m19:39:13 cron.6          | [0mStarted with PID 2690
+[36m19:39:15 worker.5        | [0mRemoved PID file
+[32m19:39:15 cron.5          | [0mRemoved PID file
+[34m19:39:15 requeuer.5      | [0mRemoved PID file
+[33m19:39:25 smtp.1          | [0m[33m=> [0mReceived TERM signal, shutting down.
+[31m19:39:25 fast.3          | [0m[31m=> [0mrake aborted!
+[31m19:39:25 fast.3          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:39:25 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:39:25 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:39:25 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:39:25 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:39:25 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:39:25 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:39:25 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:39:25 fast.3          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:39:25 fast.3          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:39:25 fast.3          | [0m[31m=> [0m(See full trace by running task with --trace)
+[33m19:39:27 smtp.1          | [0mPID file changed. Updated pid to 2679
+[31m19:39:27 fast.3          | [0mProcess has stopped. Respawning...
+[31m19:39:27 fast.3          | [0mStarted with PID 2734
+[31m19:39:32 fast.3          | [0m[31m=> [0mrake aborted!
+[31m19:39:32 fast.3          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:39:32 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:39:32 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:39:32 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:39:32 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:39:32 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:39:32 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:39:32 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:39:32 fast.3          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:39:32 fast.3          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:39:32 fast.3          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:39:33 fast.3          | [0mProcess has stopped. Respawning...
+[31m19:39:33 fast.3          | [0mStarted with PID 2740
+[31m19:39:36 fast.3          | [0m[31m=> [0mrake aborted!
+[31m19:39:36 fast.3          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:39:36 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:39:36 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:39:36 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:39:36 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:39:36 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:39:36 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:39:36 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:39:36 fast.3          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:39:36 fast.3          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:39:36 fast.3          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:39:39 fast.3          | [0mProcess has stopped. Respawning...
+[31m19:39:39 fast.3          | [0mStarted with PID 2748
+[31m19:39:42 fast.3          | [0m[31m=> [0mrake aborted!
+[31m19:39:42 fast.3          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:39:42 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:39:42 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:39:42 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:39:42 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:39:42 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:39:42 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:39:42 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:39:42 fast.3          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:39:42 fast.3          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:39:42 fast.3          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:39:45 fast.3          | [0mProcess has stopped. Respawning...
+[31m19:39:45 fast.3          | [0mStarted with PID 2756
+[31m19:39:48 fast.3          | [0m[31m=> [0mrake aborted!
+[31m19:39:48 fast.3          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:39:48 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:39:48 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:39:48 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:39:48 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:39:48 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:39:48 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:39:48 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:39:48 fast.3          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:39:48 fast.3          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:39:48 fast.3          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:39:48 fast.3          | [0mProcess has stopped. Respawning...
+[31m19:39:48 fast.3          | [0mStarted with PID 2760
+[31m19:39:51 fast.3          | [0m[31m=> [0mrake aborted!
+[31m19:39:51 fast.3          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:39:51 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:39:51 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:39:51 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:39:51 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:39:51 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:39:51 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:39:51 fast.3          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:39:51 fast.3          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:39:51 fast.3          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:39:51 fast.3          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:39:51 fast.3          | [0m[41;37mWarning:[0m[31m this process has been respawned 5 times and keeps dying.[0m
+[31m19:39:51 fast.3          | [0m[31mIt will not be respawned automatically any longer and will no longer be managed.[0m
+[31m19:39:51 fast.3          | [0mRemoved PID file
+[m19:49:50 system          | [0mReloading configuration
+[m19:49:50 system          | [0mRestarting all Postal processes
+[35m19:49:50 web.1           | [0mRestarting using usr1 mode
+[35m19:49:50 web.1           | [0mSent USR1 signal to process 2110
+[36m19:49:50 worker.6        | [0mRestarting using start-term mode
+[36m19:49:50 worker.7        | [0mStarted with PID 3143
+[36m19:49:50 worker.6        | [0mSending TERM to 2671
+[32m19:49:50 cron.6          | [0mRestarting using term-start mode
+[32m19:49:50 cron.6          | [0mSending TERM to 2690
+[33m19:49:50 smtp.1          | [0mRestarting using usr1 mode
+[33m19:49:50 smtp.1          | [0mSent USR1 signal to process 2679
+[34m19:49:50 requeuer.6      | [0mRestarting using term-start mode
+[34m19:49:50 requeuer.6      | [0mSending TERM to 2687
+[31m19:49:50 fast.3          | [0mRestarting using term-start mode
+[32m19:49:50 cron.6          | [0m[32m=> [0mExiting...
+[31m19:49:50 fast.3          | [0mProcess already stopped
+[33m19:49:50 smtp.1          | [0m[33m=> [0mReceived USR1 signal, respawning.
+[31m19:49:50 fast.4          | [0mStarted with PID 3152
+[34m19:49:51 requeuer.7      | [0mStarted with PID 3157
+[32m19:49:51 cron.7          | [0mStarted with PID 3159
+[32m19:49:51 cron.6          | [0mRemoved PID file
+[34m19:49:51 requeuer.6      | [0mRemoved PID file
+[31m19:49:51 fast.3          | [0mRemoved PID file
+[36m19:49:54 worker.6        | [0mRemoved PID file
+[33m19:50:00 smtp.1          | [0m[33m=> [0mReceived TERM signal, shutting down.
+[33m19:50:00 smtp.1          | [0mPID file changed. Updated pid to 3146
+[31m19:50:00 fast.4          | [0m[31m=> [0mrake aborted!
+[31m19:50:00 fast.4          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:50:00 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:50:00 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:50:00 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:50:00 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:50:00 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:50:00 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:50:00 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:50:00 fast.4          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:50:00 fast.4          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:50:00 fast.4          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:50:03 fast.4          | [0mProcess has stopped. Respawning...
+[31m19:50:03 fast.4          | [0mStarted with PID 3215
+[31m19:50:07 fast.4          | [0m[31m=> [0mrake aborted!
+[31m19:50:07 fast.4          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:50:07 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:50:07 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:50:07 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:50:07 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:50:07 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:50:07 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:50:07 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:50:07 fast.4          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:50:07 fast.4          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:50:07 fast.4          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:50:09 fast.4          | [0mProcess has stopped. Respawning...
+[31m19:50:09 fast.4          | [0mStarted with PID 3219
+[31m19:50:13 fast.4          | [0m[31m=> [0mrake aborted!
+[31m19:50:13 fast.4          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:50:13 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:50:13 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:50:13 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:50:13 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:50:13 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:50:13 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:50:13 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:50:13 fast.4          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:50:13 fast.4          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:50:13 fast.4          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:50:15 fast.4          | [0mProcess has stopped. Respawning...
+[31m19:50:15 fast.4          | [0mStarted with PID 3232
+[31m19:50:19 fast.4          | [0m[31m=> [0mrake aborted!
+[31m19:50:19 fast.4          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:50:19 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:50:19 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:50:19 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:50:19 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:50:19 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:50:19 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:50:19 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:50:19 fast.4          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:50:19 fast.4          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:50:19 fast.4          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:50:21 fast.4          | [0mProcess has stopped. Respawning...
+[31m19:50:21 fast.4          | [0mStarted with PID 3240
+[31m19:50:25 fast.4          | [0m[31m=> [0mrake aborted!
+[31m19:50:25 fast.4          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:50:25 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:50:25 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:50:25 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:50:25 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:50:25 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:50:25 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:50:25 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:50:25 fast.4          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:50:25 fast.4          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:50:25 fast.4          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:50:27 fast.4          | [0mProcess has stopped. Respawning...
+[31m19:50:27 fast.4          | [0mStarted with PID 3248
+[31m19:50:31 fast.4          | [0m[31m=> [0mrake aborted!
+[31m19:50:31 fast.4          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:50:31 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:50:31 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:50:31 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:50:31 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:50:31 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:50:31 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:50:31 fast.4          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:50:31 fast.4          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:50:31 fast.4          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:50:31 fast.4          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:50:33 fast.4          | [0m[41;37mWarning:[0m[31m this process has been respawned 5 times and keeps dying.[0m
+[31m19:50:33 fast.4          | [0m[31mIt will not be respawned automatically any longer and will no longer be managed.[0m
+[31m19:50:33 fast.4          | [0mRemoved PID file
+[m19:59:04 system          | [0mReloading configuration
+[m19:59:04 system          | [0mRestarting all Postal processes
+[35m19:59:04 web.1           | [0mRestarting using usr1 mode
+[35m19:59:04 web.1           | [0mSent USR1 signal to process 2110
+[36m19:59:04 worker.7        | [0mRestarting using start-term mode
+[36m19:59:04 worker.8        | [0mStarted with PID 3630
+[36m19:59:04 worker.7        | [0mSending TERM to 3143
+[32m19:59:04 cron.7          | [0mRestarting using term-start mode
+[32m19:59:04 cron.7          | [0mSending TERM to 3159
+[33m19:59:04 smtp.1          | [0mRestarting using usr1 mode
+[33m19:59:04 smtp.1          | [0mSent USR1 signal to process 3146
+[34m19:59:04 requeuer.7      | [0mRestarting using term-start mode
+[34m19:59:04 requeuer.7      | [0mSending TERM to 3157
+[31m19:59:04 fast.4          | [0mRestarting using term-start mode
+[31m19:59:04 fast.4          | [0mProcess already stopped
+[33m19:59:04 smtp.1          | [0m[33m=> [0mReceived USR1 signal, respawning.
+[32m19:59:04 cron.7          | [0m[32m=> [0mExiting...
+[31m19:59:04 fast.5          | [0mStarted with PID 3639
+[34m19:59:05 requeuer.8      | [0mStarted with PID 3646
+[32m19:59:05 cron.8          | [0mStarted with PID 3648
+[36m19:59:06 worker.7        | [0mRemoved PID file
+[32m19:59:06 cron.7          | [0mRemoved PID file
+[34m19:59:06 requeuer.7      | [0mRemoved PID file
+[31m19:59:06 fast.4          | [0mRemoved PID file
+[33m19:59:14 smtp.1          | [0m[33m=> [0mReceived TERM signal, shutting down.
+[31m19:59:14 fast.5          | [0m[31m=> [0mrake aborted!
+[31m19:59:14 fast.5          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:59:14 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:59:14 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:59:14 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:59:14 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:59:14 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:59:14 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:59:14 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:59:14 fast.5          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:59:14 fast.5          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:59:14 fast.5          | [0m[31m=> [0m(See full trace by running task with --trace)
+[33m19:59:15 smtp.1          | [0mPID file changed. Updated pid to 3635
+[31m19:59:15 fast.5          | [0mProcess has stopped. Respawning...
+[31m19:59:15 fast.5          | [0mStarted with PID 3693
+[31m19:59:18 fast.5          | [0m[31m=> [0mrake aborted!
+[31m19:59:18 fast.5          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:59:18 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:59:18 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:59:18 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:59:18 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:59:18 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:59:18 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:59:18 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:59:18 fast.5          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:59:18 fast.5          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:59:18 fast.5          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:59:18 fast.5          | [0mProcess has stopped. Respawning...
+[31m19:59:18 fast.5          | [0mStarted with PID 3697
+[31m19:59:22 fast.5          | [0m[31m=> [0mrake aborted!
+[31m19:59:22 fast.5          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:59:22 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:59:22 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:59:22 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:59:22 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:59:22 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:59:22 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:59:22 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:59:22 fast.5          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:59:22 fast.5          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:59:22 fast.5          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:59:24 fast.5          | [0mProcess has stopped. Respawning...
+[31m19:59:24 fast.5          | [0mStarted with PID 3709
+[31m19:59:27 fast.5          | [0m[31m=> [0mrake aborted!
+[31m19:59:27 fast.5          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:59:27 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:59:27 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:59:27 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:59:27 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:59:27 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:59:27 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:59:27 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:59:27 fast.5          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:59:27 fast.5          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:59:27 fast.5          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:59:27 fast.5          | [0mProcess has stopped. Respawning...
+[31m19:59:27 fast.5          | [0mStarted with PID 3713
+[31m19:59:30 fast.5          | [0m[31m=> [0mrake aborted!
+[31m19:59:30 fast.5          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:59:30 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:59:30 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:59:30 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:59:30 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:59:30 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:59:30 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:59:30 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:59:30 fast.5          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:59:30 fast.5          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:59:30 fast.5          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:59:33 fast.5          | [0mProcess has stopped. Respawning...
+[31m19:59:33 fast.5          | [0mStarted with PID 3721
+[31m19:59:37 fast.5          | [0m[31m=> [0mrake aborted!
+[31m19:59:37 fast.5          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m19:59:37 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m19:59:37 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m19:59:37 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m19:59:37 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m19:59:37 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m19:59:37 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m19:59:37 fast.5          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m19:59:37 fast.5          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m19:59:37 fast.5          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m19:59:37 fast.5          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m19:59:39 fast.5          | [0m[41;37mWarning:[0m[31m this process has been respawned 5 times and keeps dying.[0m
+[31m19:59:39 fast.5          | [0m[31mIt will not be respawned automatically any longer and will no longer be managed.[0m
+[31m19:59:39 fast.5          | [0mRemoved PID file
+[m20:04:14 system          | [0mReloading configuration
+[m20:04:14 system          | [0mStopping all Postal processes
+[35m20:04:14 web.1           | [0mSending TERM to 2110
+[36m20:04:14 worker.8        | [0mSending TERM to 3630
+[32m20:04:14 cron.8          | [0mSending TERM to 3648
+[33m20:04:14 smtp.1          | [0mSending TERM to 3635
+[34m20:04:14 requeuer.8      | [0mSending TERM to 3646
+[33m20:04:14 smtp.1          | [0m[33m=> [0mReceived TERM signal, shutting down.
+[31m20:04:14 fast.5          | [0mProcess already stopped
+[32m20:04:14 cron.8          | [0m[32m=> [0mExiting...
+[35m20:04:15 web.1           | [0mRemoved PID file
+[36m20:04:15 worker.8        | [0mRemoved PID file
+[32m20:04:15 cron.8          | [0mRemoved PID file
+[33m20:04:15 smtp.1          | [0mRemoved PID file
+[34m20:04:15 requeuer.8      | [0mRemoved PID file
+[31m20:04:15 fast.5          | [0mRemoved PID file
+[m20:04:15 system          | [0mAll processes have stopped
+[m20:04:15 system          | [0mStopping Procodile supervisor
+[m20:12:50 system          | [0mProcodile supervisor started with PID 4311
+[m20:12:50 system          | [0mApplication root is /opt/postal/app
+[m20:12:50 control         | [0mListening at /tmp/postal/pids/procodile.sock
+[m20:12:50 system          | [0mReloading configuration
+[35m20:12:50 web.1           | [0mStarted with PID 4317
+[31m20:12:50 fast.1          | [0mStarted with PID 4319
+[36m20:12:50 worker.1        | [0mStarted with PID 4321
+[32m20:12:50 cron.1          | [0mStarted with PID 4325
+[33m20:12:50 smtp.1          | [0mStarted with PID 4327
+[34m20:12:50 requeuer.1      | [0mStarted with PID 4329
+[35m20:12:52 web.1           | [0m[35m=> [0mPuma starting in single mode...
+[35m20:12:52 web.1           | [0m[35m=> [0m* Version 3.8.2 (ruby 2.3.4-p301), codename: Sassy Salamander
+[35m20:12:52 web.1           | [0m[35m=> [0m* Min threads: 5, max threads: 5
+[35m20:12:52 web.1           | [0m[35m=> [0m* Environment: production
+[31m20:12:59 fast.1          | [0m[31m=> [0mrake aborted!
+[31m20:12:59 fast.1          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m20:12:59 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m20:12:59 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m20:12:59 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m20:12:59 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m20:12:59 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m20:12:59 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m20:12:59 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m20:12:59 fast.1          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m20:12:59 fast.1          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m20:12:59 fast.1          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m20:12:59 fast.1          | [0mProcess has stopped. Respawning...
+[31m20:12:59 fast.1          | [0mStarted with PID 4347
+[35m20:12:59 web.1           | [0m[35m=> [0m* Listening on tcp://127.0.0.1:5000
+[35m20:12:59 web.1           | [0m[35m=> [0mUse Ctrl-C to stop
+[31m20:13:02 fast.1          | [0m[31m=> [0mrake aborted!
+[31m20:13:02 fast.1          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m20:13:02 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m20:13:02 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m20:13:02 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m20:13:02 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m20:13:02 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m20:13:02 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m20:13:02 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m20:13:02 fast.1          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m20:13:02 fast.1          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m20:13:02 fast.1          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m20:13:05 fast.1          | [0mProcess has stopped. Respawning...
+[31m20:13:05 fast.1          | [0mStarted with PID 4372
+[31m20:13:08 fast.1          | [0m[31m=> [0mrake aborted!
+[31m20:13:08 fast.1          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m20:13:08 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m20:13:08 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m20:13:08 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m20:13:08 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m20:13:08 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m20:13:08 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m20:13:08 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m20:13:08 fast.1          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m20:13:08 fast.1          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m20:13:08 fast.1          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m20:13:11 fast.1          | [0mProcess has stopped. Respawning...
+[31m20:13:11 fast.1          | [0mStarted with PID 4380
+[31m20:13:14 fast.1          | [0m[31m=> [0mrake aborted!
+[31m20:13:14 fast.1          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m20:13:14 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m20:13:14 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m20:13:14 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m20:13:14 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m20:13:14 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m20:13:14 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m20:13:14 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m20:13:14 fast.1          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m20:13:14 fast.1          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m20:13:14 fast.1          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m20:13:17 fast.1          | [0mProcess has stopped. Respawning...
+[31m20:13:17 fast.1          | [0mStarted with PID 4388
+[31m20:13:20 fast.1          | [0m[31m=> [0mrake aborted!
+[31m20:13:20 fast.1          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m20:13:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m20:13:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m20:13:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m20:13:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m20:13:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m20:13:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m20:13:20 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m20:13:20 fast.1          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m20:13:20 fast.1          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m20:13:20 fast.1          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m20:13:23 fast.1          | [0mProcess has stopped. Respawning...
+[31m20:13:23 fast.1          | [0mStarted with PID 4392
+[31m20:13:26 fast.1          | [0m[31m=> [0mrake aborted!
+[31m20:13:26 fast.1          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m20:13:26 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m20:13:26 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m20:13:26 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m20:13:26 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m20:13:26 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m20:13:26 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m20:13:26 fast.1          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m20:13:26 fast.1          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m20:13:26 fast.1          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m20:13:26 fast.1          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m20:13:26 fast.1          | [0m[41;37mWarning:[0m[31m this process has been respawned 5 times and keeps dying.[0m
+[31m20:13:26 fast.1          | [0m[31mIt will not be respawned automatically any longer and will no longer be managed.[0m
+[31m20:13:26 fast.1          | [0mRemoved PID file
+[m20:17:03 system          | [0mReloading configuration
+[m20:17:03 system          | [0mRestarting all Postal processes
+[35m20:17:03 web.1           | [0mRestarting using usr1 mode
+[35m20:17:03 web.1           | [0mSent USR1 signal to process 4317
+[31m20:17:03 fast.1          | [0mRestarting using term-start mode
+[31m20:17:03 fast.1          | [0mProcess already stopped
+[36m20:17:03 worker.1        | [0mRestarting using start-term mode
+[31m20:17:03 fast.2          | [0mStarted with PID 4535
+[36m20:17:03 worker.2        | [0mStarted with PID 4532
+[36m20:17:03 worker.1        | [0mSending TERM to 4321
+[32m20:17:03 cron.1          | [0mRestarting using term-start mode
+[32m20:17:03 cron.1          | [0mSending TERM to 4325
+[33m20:17:03 smtp.1          | [0mRestarting using usr1 mode
+[33m20:17:03 smtp.1          | [0mSent USR1 signal to process 4327
+[34m20:17:03 requeuer.1      | [0mRestarting using term-start mode
+[34m20:17:03 requeuer.1      | [0mSending TERM to 4329
+[32m20:17:03 cron.1          | [0m[32m=> [0mExiting...
+[33m20:17:03 smtp.1          | [0m[33m=> [0mReceived USR1 signal, respawning.
+[32m20:17:04 cron.2          | [0mStarted with PID 4550
+[34m20:17:04 requeuer.2      | [0mStarted with PID 4549
+[31m20:17:05 fast.1          | [0mRemoved PID file
+[36m20:17:05 worker.1        | [0mRemoved PID file
+[32m20:17:05 cron.1          | [0mRemoved PID file
+[34m20:17:05 requeuer.1      | [0mRemoved PID file
+[33m20:17:12 smtp.1          | [0m[33m=> [0mReceived TERM signal, shutting down.
+[31m20:17:12 fast.2          | [0m[31m=> [0mrake aborted!
+[31m20:17:12 fast.2          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m20:17:12 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m20:17:12 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m20:17:12 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m20:17:12 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m20:17:12 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m20:17:12 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m20:17:12 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m20:17:12 fast.2          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m20:17:12 fast.2          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m20:17:12 fast.2          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m20:17:14 fast.2          | [0mProcess has stopped. Respawning...
+[31m20:17:14 fast.2          | [0mStarted with PID 4592
+[33m20:17:14 smtp.1          | [0mPID file changed. Updated pid to 4540
+[31m20:17:18 fast.2          | [0m[31m=> [0mrake aborted!
+[31m20:17:18 fast.2          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m20:17:18 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m20:17:18 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m20:17:18 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m20:17:18 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m20:17:18 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m20:17:18 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m20:17:18 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m20:17:18 fast.2          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m20:17:18 fast.2          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m20:17:18 fast.2          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m20:17:20 fast.2          | [0mProcess has stopped. Respawning...
+[31m20:17:20 fast.2          | [0mStarted with PID 4598
+[31m20:17:24 fast.2          | [0m[31m=> [0mrake aborted!
+[31m20:17:24 fast.2          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m20:17:24 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m20:17:24 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m20:17:24 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m20:17:24 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m20:17:24 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m20:17:24 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m20:17:24 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m20:17:24 fast.2          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m20:17:24 fast.2          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m20:17:24 fast.2          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m20:17:26 fast.2          | [0mProcess has stopped. Respawning...
+[31m20:17:26 fast.2          | [0mStarted with PID 4606
+[31m20:17:30 fast.2          | [0m[31m=> [0mrake aborted!
+[31m20:17:30 fast.2          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m20:17:30 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m20:17:30 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m20:17:30 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m20:17:30 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m20:17:30 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m20:17:30 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m20:17:30 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m20:17:30 fast.2          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m20:17:30 fast.2          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m20:17:30 fast.2          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m20:17:32 fast.2          | [0mProcess has stopped. Respawning...
+[31m20:17:32 fast.2          | [0mStarted with PID 4612
+[31m20:17:36 fast.2          | [0m[31m=> [0mrake aborted!
+[31m20:17:36 fast.2          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m20:17:36 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m20:17:36 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m20:17:36 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m20:17:36 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m20:17:36 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m20:17:36 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m20:17:36 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m20:17:36 fast.2          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m20:17:36 fast.2          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m20:17:36 fast.2          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m20:17:38 fast.2          | [0mProcess has stopped. Respawning...
+[31m20:17:38 fast.2          | [0mStarted with PID 4622
+[31m20:17:42 fast.2          | [0m[31m=> [0mrake aborted!
+[31m20:17:42 fast.2          | [0m[31m=> [0mErrno::EADDRNOTAVAIL: Cannot assign requested address - bind(2) for "138.68.192.134" port 80
+[31m20:17:42 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `initialize'
+[31m20:17:42 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `new'
+[31m20:17:42 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:21:in `block in run'
+[31m20:17:42 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each'
+[31m20:17:42 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `each_with_object'
+[31m20:17:42 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/postal/fast_server/server.rb:20:in `run'
+[31m20:17:42 fast.2          | [0m[31m=> [0m/opt/postal/app/lib/tasks/postal.rake:33:in `block (2 levels) in <top (required)>'
+[31m20:17:42 fast.2          | [0m[31m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[31m20:17:42 fast.2          | [0m[31m=> [0mTasks: TOP => postal:fast_server
+[31m20:17:42 fast.2          | [0m[31m=> [0m(See full trace by running task with --trace)
+[31m20:17:44 fast.2          | [0m[41;37mWarning:[0m[31m this process has been respawned 5 times and keeps dying.[0m
+[31m20:17:44 fast.2          | [0m[31mIt will not be respawned automatically any longer and will no longer be managed.[0m
+[31m20:17:44 fast.2          | [0mRemoved PID file
+[33m08:21:26 smtp.1          | [0m[33m=> [0mlog writing failed. "\xB1" from ASCII-8BIT to UTF-8
+[33m08:21:26 smtp.1          | [0m[33m=> [0mlog writing failed. "\x9C" from ASCII-8BIT to UTF-8
+[33m08:21:26 smtp.1          | [0m[33m=> [0mlog writing failed. "\xFF" from ASCII-8BIT to UTF-8
+[33m11:34:13 smtp.1          | [0m[33m=> [0mlog writing failed. "\xB1" from ASCII-8BIT to UTF-8
+[33m11:34:13 smtp.1          | [0m[33m=> [0mlog writing failed. "\x9C" from ASCII-8BIT to UTF-8
+[33m11:34:13 smtp.1          | [0m[33m=> [0mlog writing failed. "\xFF" from ASCII-8BIT to UTF-8
+[36m06:48:20 worker.2        | [0m[36m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query': Mysql2::Error: Lost connection to MySQL server during query: SELECT  `ip_addresses`.* FROM `ip_addresses` WHERE (ipv4 = '104.236.190.141' OR ipv6 = '104.236.190.141') ORDER BY `ip_addresses`.`id` ASC LIMIT 1 (ActiveRecord::StatementInvalid)
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `block in execute'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.2/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `execute'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql/database_statements.rb:31:in `execute'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:225:in `execute_and_free'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql/database_statements.rb:36:in `exec_query'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:373:in `select'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:41:in `select_all'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:95:in `select_all'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql/database_statements.rb:10:in `select_all'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/querying.rb:39:in `find_by_sql'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:702:in `exec_queries'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:583:in `load'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:260:in `records'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:256:in `to_a'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/finder_methods.rb:563:in `find_nth_with_limit'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/finder_methods.rb:592:in `find_nth_with_limit_and_offset'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/finder_methods.rb:545:in `find_nth'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/finder_methods.rb:122:in `first'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:134:in `block in manage_ip_queues'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:125:in `each'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:125:in `manage_ip_queues'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:36:in `block in work'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:21:in `loop'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:21:in `work'
+[36m06:48:20 worker.2        | [0m[36m=> [0m	from script/worker.rb:3:in `<main>'
+[36m06:48:20 worker.2        | [0mProcess has stopped. Respawning...
+[36m06:48:20 worker.2        | [0mStarted with PID 13067
+[34m06:48:22 requeuer.2      | [0m[34m=> [0mrake aborted!
+[34m06:48:22 requeuer.2      | [0m[34m=> [0mActiveRecord::StatementInvalid: Mysql2::Error: Lost connection to MySQL server during query: SELECT `queued_messages`.* FROM `queued_messages` WHERE `queued_messages`.`locked_at` IS NULL AND (retry_after IS NULL OR retry_after <= '2017-09-07 06:48:52.451750')
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `block in execute'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.2/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `execute'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql/database_statements.rb:31:in `execute'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:225:in `execute_and_free'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql/database_statements.rb:36:in `exec_query'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:373:in `select'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:41:in `select_all'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:95:in `select_all'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql/database_statements.rb:10:in `select_all'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/querying.rb:39:in `find_by_sql'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:702:in `exec_queries'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:583:in `load'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:260:in `records'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:38:in `each'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/app/app/models/queued_message.rb:119:in `requeue_all'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:11:in `block in run'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `loop'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `run'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/tasks/postal.rake:18:in `block (2 levels) in <top (required)>'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0mMysql2::Error: Lost connection to MySQL server during query
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `_query'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:107:in `block in query'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `handle_interrupt'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:106:in `query'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `block in execute'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.2/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:218:in `execute'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql/database_statements.rb:31:in `execute'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:225:in `execute_and_free'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql/database_statements.rb:36:in `exec_query'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:373:in `select'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:41:in `select_all'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:95:in `select_all'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql/database_statements.rb:10:in `select_all'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/querying.rb:39:in `find_by_sql'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:702:in `exec_queries'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:583:in `load'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:260:in `records'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:38:in `each'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/app/app/models/queued_message.rb:119:in `requeue_all'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:11:in `block in run'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `loop'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `run'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/tasks/postal.rake:18:in `block (2 levels) in <top (required)>'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[34m06:48:22 requeuer.2      | [0m[34m=> [0mTasks: TOP => postal:requeuer
+[34m06:48:22 requeuer.2      | [0m[34m=> [0m(See full trace by running task with --trace)
+[34m06:48:23 requeuer.2      | [0mProcess has stopped. Respawning...
+[34m06:48:23 requeuer.2      | [0mStarted with PID 13151
+[34m06:48:31 requeuer.2      | [0m[34m=> [0mrake aborted!
+[34m06:48:31 requeuer.2      | [0m[34m=> [0mMysql2::Error: Can't connect to MySQL server on '127.0.0.1' (111)
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `connect'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `initialize'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `new'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `mysql2_connection'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_handling.rb:91:in `connection'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:180:in `replace_bind_variables'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:169:in `sanitize_sql_array'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:33:in `sanitize_sql_for_conditions'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/where_clause_factory.rb:14:in `build'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/query_methods.rb:632:in `where!'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/query_methods.rb:625:in `where'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/querying.rb:10:in `where'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/app/app/models/queued_message.rb:39:in `block in <class:QueuedMessage>'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `instance_exec'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `block (2 levels) in scope'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:351:in `scoping'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `block in scope'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `public_send'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `block in method_missing'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:351:in `scoping'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `method_missing'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/app/app/models/queued_message.rb:119:in `requeue_all'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:11:in `block in run'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `loop'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `run'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/tasks/postal.rake:18:in `block (2 levels) in <top (required)>'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[34m06:48:31 requeuer.2      | [0m[34m=> [0mTasks: TOP => postal:requeuer
+[34m06:48:31 requeuer.2      | [0m[34m=> [0m(See full trace by running task with --trace)
+[36m06:48:32 worker.2        | [0m[36m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `connect': Can't connect to MySQL server on '127.0.0.1' (111) (Mysql2::Error)
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `initialize'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `new'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `mysql2_connection'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_handling.rb:91:in `connection'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:180:in `replace_bind_variables'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:169:in `sanitize_sql_array'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:33:in `sanitize_sql_for_conditions'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/where_clause_factory.rb:14:in `build'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/query_methods.rb:632:in `where!'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/query_methods.rb:625:in `where'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/querying.rb:10:in `where'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:134:in `block in manage_ip_queues'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:125:in `each'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:125:in `manage_ip_queues'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:36:in `block in work'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:21:in `loop'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:21:in `work'
+[36m06:48:32 worker.2        | [0m[36m=> [0m	from script/worker.rb:3:in `<main>'
+[36m06:48:32 worker.2        | [0mProcess has stopped. Respawning...
+[36m06:48:32 worker.2        | [0mStarted with PID 13470
+[34m06:48:32 requeuer.2      | [0mProcess has stopped. Respawning...
+[34m06:48:32 requeuer.2      | [0mStarted with PID 13472
+[32m06:48:37 cron.2          | [0m[32m=> [0mW, [2017-09-07T06:48:37.655412 #4550]  WARN -- #<Bunny::Session:0x4aa3940 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: Recovering from connection.close (CONNECTION_FORCED - broker forced connection closure with reason 'shutdown')
+[32m06:48:37 cron.2          | [0m[32m=> [0mW, [2017-09-07T06:48:37.655807 #4550]  WARN -- #<Bunny::Session:0x4aa3940 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: Recovering from a network failure...
+[34m06:48:38 requeuer.2      | [0m[34m=> [0mrake aborted!
+[34m06:48:38 requeuer.2      | [0m[34m=> [0mMysql2::Error: Can't connect to MySQL server on '127.0.0.1' (111)
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `connect'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `initialize'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `new'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `mysql2_connection'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_handling.rb:91:in `connection'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:180:in `replace_bind_variables'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:169:in `sanitize_sql_array'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:33:in `sanitize_sql_for_conditions'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/where_clause_factory.rb:14:in `build'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/query_methods.rb:632:in `where!'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/query_methods.rb:625:in `where'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/querying.rb:10:in `where'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/app/app/models/queued_message.rb:39:in `block in <class:QueuedMessage>'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `instance_exec'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `block (2 levels) in scope'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:351:in `scoping'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `block in scope'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `public_send'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `block in method_missing'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:351:in `scoping'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `method_missing'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/app/app/models/queued_message.rb:119:in `requeue_all'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:11:in `block in run'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `loop'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `run'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/tasks/postal.rake:18:in `block (2 levels) in <top (required)>'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[34m06:48:38 requeuer.2      | [0m[34m=> [0mTasks: TOP => postal:requeuer
+[34m06:48:38 requeuer.2      | [0m[34m=> [0m(See full trace by running task with --trace)
+[36m06:48:38 worker.2        | [0m[36m=> [0mW, [2017-09-07T06:48:38.412626 #13470]  WARN -- #<Bunny::Session:0x6bd6478 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: Could not establish TCP connection to 127.0.0.1:5672: Connection refused - connect(2) for 127.0.0.1:5672
+[36m06:48:38 worker.2        | [0m[36m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/bunny-2.5.1/lib/bunny/session.rb:322:in `rescue in start': Could not establish TCP connection to any of the configured hosts (Bunny::TCPConnectionFailedForAllHosts)
+[36m06:48:38 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/bunny-2.5.1/lib/bunny/session.rb:288:in `start'
+[36m06:48:38 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/rabbit_mq.rb:15:in `create_connection'
+[36m06:48:38 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/rabbit_mq.rb:20:in `create_channel'
+[36m06:48:38 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:195:in `job_channel'
+[36m06:48:38 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:17:in `work'
+[36m06:48:38 worker.2        | [0m[36m=> [0m	from script/worker.rb:3:in `<main>'
+[36m06:48:38 worker.2        | [0mProcess has stopped. Respawning...
+[36m06:48:38 worker.2        | [0mStarted with PID 14014
+[34m06:48:38 requeuer.2      | [0mProcess has stopped. Respawning...
+[34m06:48:38 requeuer.2      | [0mStarted with PID 14016
+[34m06:48:43 requeuer.2      | [0m[34m=> [0mrake aborted!
+[34m06:48:43 requeuer.2      | [0m[34m=> [0mMysql2::Error: Can't connect to MySQL server on '127.0.0.1' (111)
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `connect'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `initialize'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `new'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `mysql2_connection'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_handling.rb:91:in `connection'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:180:in `replace_bind_variables'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:169:in `sanitize_sql_array'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:33:in `sanitize_sql_for_conditions'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/where_clause_factory.rb:14:in `build'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/query_methods.rb:632:in `where!'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/query_methods.rb:625:in `where'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/querying.rb:10:in `where'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/app/app/models/queued_message.rb:39:in `block in <class:QueuedMessage>'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `instance_exec'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `block (2 levels) in scope'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:351:in `scoping'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `block in scope'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `public_send'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `block in method_missing'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:351:in `scoping'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `method_missing'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/app/app/models/queued_message.rb:119:in `requeue_all'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:11:in `block in run'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `loop'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `run'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/tasks/postal.rake:18:in `block (2 levels) in <top (required)>'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[34m06:48:43 requeuer.2      | [0m[34m=> [0mTasks: TOP => postal:requeuer
+[34m06:48:43 requeuer.2      | [0m[34m=> [0m(See full trace by running task with --trace)
+[36m06:48:43 worker.2        | [0m[36m=> [0mW, [2017-09-07T06:48:43.947668 #14014]  WARN -- #<Bunny::Session:0x4564d58 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: Could not establish TCP connection to 127.0.0.1:5672: Connection refused - connect(2) for 127.0.0.1:5672
+[36m06:48:43 worker.2        | [0m[36m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/bunny-2.5.1/lib/bunny/session.rb:322:in `rescue in start': Could not establish TCP connection to any of the configured hosts (Bunny::TCPConnectionFailedForAllHosts)
+[36m06:48:43 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/bunny-2.5.1/lib/bunny/session.rb:288:in `start'
+[36m06:48:43 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/rabbit_mq.rb:15:in `create_connection'
+[36m06:48:43 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/rabbit_mq.rb:20:in `create_channel'
+[36m06:48:43 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:195:in `job_channel'
+[36m06:48:43 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:17:in `work'
+[36m06:48:43 worker.2        | [0m[36m=> [0m	from script/worker.rb:3:in `<main>'
+[36m06:48:44 worker.2        | [0mProcess has stopped. Respawning...
+[36m06:48:44 worker.2        | [0mStarted with PID 16220
+[34m06:48:44 requeuer.2      | [0mProcess has stopped. Respawning...
+[34m06:48:44 requeuer.2      | [0mStarted with PID 16222
+[32m06:48:47 cron.2          | [0m[32m=> [0mW, [2017-09-07T06:48:47.657809 #4550]  WARN -- #<Bunny::Session:0x4aa3940 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: Retrying connection on next host in line: 127.0.0.1:5672
+[32m06:48:47 cron.2          | [0m[32m=> [0mW, [2017-09-07T06:48:47.660230 #4550]  WARN -- #<Bunny::Session:0x4aa3940 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: Could not establish TCP connection to 127.0.0.1:5672: Connection refused - connect(2) for 127.0.0.1:5672
+[32m06:48:47 cron.2          | [0m[32m=> [0mW, [2017-09-07T06:48:47.660341 #4550]  WARN -- #<Bunny::Session:0x4aa3940 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: TCP connection failed, reconnecting in 5.0 seconds
+[34m06:48:48 requeuer.2      | [0m[34m=> [0mrake aborted!
+[34m06:48:48 requeuer.2      | [0m[34m=> [0mMysql2::Error: Can't connect to MySQL server on '127.0.0.1' (111)
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `connect'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `initialize'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `new'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `mysql2_connection'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_handling.rb:91:in `connection'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:180:in `replace_bind_variables'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:169:in `sanitize_sql_array'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:33:in `sanitize_sql_for_conditions'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/where_clause_factory.rb:14:in `build'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/query_methods.rb:632:in `where!'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/query_methods.rb:625:in `where'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/querying.rb:10:in `where'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/app/app/models/queued_message.rb:39:in `block in <class:QueuedMessage>'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `instance_exec'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `block (2 levels) in scope'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:351:in `scoping'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `block in scope'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `public_send'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `block in method_missing'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:351:in `scoping'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `method_missing'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/app/app/models/queued_message.rb:119:in `requeue_all'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:11:in `block in run'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `loop'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `run'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/tasks/postal.rake:18:in `block (2 levels) in <top (required)>'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[34m06:48:48 requeuer.2      | [0m[34m=> [0mTasks: TOP => postal:requeuer
+[34m06:48:48 requeuer.2      | [0m[34m=> [0m(See full trace by running task with --trace)
+[36m06:48:49 worker.2        | [0m[36m=> [0mW, [2017-09-07T06:48:49.159011 #16220]  WARN -- #<Bunny::Session:0x722c868 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: Could not establish TCP connection to 127.0.0.1:5672: Connection refused - connect(2) for 127.0.0.1:5672
+[36m06:48:49 worker.2        | [0m[36m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/bunny-2.5.1/lib/bunny/session.rb:322:in `rescue in start': Could not establish TCP connection to any of the configured hosts (Bunny::TCPConnectionFailedForAllHosts)
+[36m06:48:49 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/bunny-2.5.1/lib/bunny/session.rb:288:in `start'
+[36m06:48:49 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/rabbit_mq.rb:15:in `create_connection'
+[36m06:48:49 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/rabbit_mq.rb:20:in `create_channel'
+[36m06:48:49 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:195:in `job_channel'
+[36m06:48:49 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:17:in `work'
+[36m06:48:49 worker.2        | [0m[36m=> [0m	from script/worker.rb:3:in `<main>'
+[36m06:48:50 worker.2        | [0mProcess has stopped. Respawning...
+[36m06:48:50 worker.2        | [0mStarted with PID 18323
+[34m06:48:50 requeuer.2      | [0mProcess has stopped. Respawning...
+[34m06:48:50 requeuer.2      | [0mStarted with PID 18325
+[34m06:48:55 requeuer.2      | [0m[34m=> [0mrake aborted!
+[34m06:48:55 requeuer.2      | [0m[34m=> [0mMysql2::Error: Can't connect to MySQL server on '127.0.0.1' (111)
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `connect'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/mysql2-0.4.4/lib/mysql2/client.rb:87:in `initialize'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `new'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `mysql2_connection'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_handling.rb:91:in `connection'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:180:in `replace_bind_variables'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:169:in `sanitize_sql_array'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/sanitization.rb:33:in `sanitize_sql_for_conditions'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/where_clause_factory.rb:14:in `build'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/query_methods.rb:632:in `where!'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/query_methods.rb:625:in `where'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/querying.rb:10:in `where'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/app/app/models/queued_message.rb:39:in `block in <class:QueuedMessage>'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `instance_exec'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `block (2 levels) in scope'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:351:in `scoping'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/scoping/named.rb:159:in `block in scope'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `public_send'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `block in method_missing'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation.rb:351:in `scoping'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/activerecord-5.0.2/lib/active_record/relation/delegation.rb:89:in `method_missing'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/app/app/models/queued_message.rb:119:in `requeue_all'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:11:in `block in run'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `loop'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/postal/message_requeuer.rb:9:in `run'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/app/lib/tasks/postal.rake:18:in `block (2 levels) in <top (required)>'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+[34m06:48:55 requeuer.2      | [0m[34m=> [0mTasks: TOP => postal:requeuer
+[34m06:48:55 requeuer.2      | [0m[34m=> [0m(See full trace by running task with --trace)
+[36m06:48:56 worker.2        | [0m[36m=> [0mW, [2017-09-07T06:48:56.656727 #18323]  WARN -- #<Bunny::Session:0x6318368 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: Could not establish TCP connection to 127.0.0.1:5672: Connection refused - connect(2) for 127.0.0.1:5672
+[36m06:48:56 worker.2        | [0m[36m=> [0m/opt/postal/vendor/bundle/ruby/2.3.0/gems/bunny-2.5.1/lib/bunny/session.rb:322:in `rescue in start': Could not establish TCP connection to any of the configured hosts (Bunny::TCPConnectionFailedForAllHosts)
+[36m06:48:56 worker.2        | [0m[36m=> [0m	from /opt/postal/vendor/bundle/ruby/2.3.0/gems/bunny-2.5.1/lib/bunny/session.rb:288:in `start'
+[36m06:48:56 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/rabbit_mq.rb:15:in `create_connection'
+[36m06:48:56 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/rabbit_mq.rb:20:in `create_channel'
+[36m06:48:56 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:195:in `job_channel'
+[36m06:48:56 worker.2        | [0m[36m=> [0m	from /opt/postal/app/lib/postal/worker.rb:17:in `work'
+[36m06:48:56 worker.2        | [0m[36m=> [0m	from script/worker.rb:3:in `<main>'
+[36m06:48:56 worker.2        | [0m[41;37mWarning:[0m[31m this process has been respawned 5 times and keeps dying.[0m
+[36m06:48:56 worker.2        | [0m[31mIt will not be respawned automatically any longer and will no longer be managed.[0m
+[36m06:48:56 worker.2        | [0mRemoved PID file
+[34m06:48:56 requeuer.2      | [0m[41;37mWarning:[0m[31m this process has been respawned 5 times and keeps dying.[0m
+[34m06:48:56 requeuer.2      | [0m[31mIt will not be respawned automatically any longer and will no longer be managed.[0m
+[34m06:48:56 requeuer.2      | [0mRemoved PID file
+[32m06:48:57 cron.2          | [0m[32m=> [0mW, [2017-09-07T06:48:57.661124 #4550]  WARN -- #<Bunny::Session:0x4aa3940 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: Retrying connection on next host in line: 127.0.0.1:5672
+[32m06:48:57 cron.2          | [0m[32m=> [0mW, [2017-09-07T06:48:57.661955 #4550]  WARN -- #<Bunny::Session:0x4aa3940 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: Could not establish TCP connection to 127.0.0.1:5672: Connection refused - connect(2) for 127.0.0.1:5672
+[32m06:48:57 cron.2          | [0m[32m=> [0mW, [2017-09-07T06:48:57.662089 #4550]  WARN -- #<Bunny::Session:0x4aa3940 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: TCP connection failed, reconnecting in 5.0 seconds
+[32m06:49:07 cron.2          | [0m[32m=> [0mW, [2017-09-07T06:49:07.662794 #4550]  WARN -- #<Bunny::Session:0x4aa3940 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: Retrying connection on next host in line: 127.0.0.1:5672
+[32m06:49:07 cron.2          | [0m[32m=> [0mW, [2017-09-07T06:49:07.663671 #4550]  WARN -- #<Bunny::Session:0x4aa3940 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: Could not establish TCP connection to 127.0.0.1:5672: Connection refused - connect(2) for 127.0.0.1:5672
+[32m06:49:07 cron.2          | [0m[32m=> [0mW, [2017-09-07T06:49:07.663776 #4550]  WARN -- #<Bunny::Session:0x4aa3940 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: TCP connection failed, reconnecting in 5.0 seconds
+[32m06:49:17 cron.2          | [0m[32m=> [0mW, [2017-09-07T06:49:17.664795 #4550]  WARN -- #<Bunny::Session:0x4aa3940 postal@127.0.0.1:5672, vhost=/postal, addresses=[127.0.0.1:5672]>: Retrying connection on next host in line: 127.0.0.1:5672
