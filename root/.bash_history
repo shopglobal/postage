@@ -279,3 +279,62 @@ git add -A
 Git status
 git status
 git commit -a
+cd ..
+ls
+git add -A
+git commit -m "initials"
+git add bit
+git add bin
+git add tmp
+git add sys
+git add run
+git commit -m "updates
+git
+git commit -m "updates"
+git add -A
+git push origin master
+git status
+git add root
+git status
+git add sys
+git add usr
+git status
+git add var
+git add lib
+git add boot
+git add deve
+git add dev
+git commit -m "updates"
+git push -u origin master
+ssh-keygen –t rsa –b 4096 –C "president@worldvaporexpo.com"
+la
+cd home
+ls
+la
+du
+cd ..
+la
+cd ..
+ls
+adduser dev
+usermod -aG sudo dev
+ssh-keygen
+ssh-keygencat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub
+clip cat ~/.ssh/id_rsa.pub
+clip ~/.ssh/id_rsa.pub
+clip ~/.ssh/id_rsa.pub -l
+cat ~/.ssh/id_rsa.pub
+cd ~/.ssh
+sudo vi id_rsa.pub
+git push origin master
+git add -A
+git status
+cd ..
+git status
+git add --all
+git add proc
+git add home
+git add etc
+git commit -A
+git commit -a

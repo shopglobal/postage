@@ -8,11 +8,11 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:quit
 :.!main
 :.!!
 :x
 :quit!
-:quit
 :quite
 
 # Search String History (newest to oldest):
@@ -30,18 +30,19 @@
 	>
 
 # File marks:
-'0  53  46  /opt/postal/app/app/views/layouts/application.html.haml
-'1  94  5  /opt/postal/app/app/views/layouts/application.html.haml
-'2  1  0  /opt/postal/app/spec/config/postal.yml
-'3  17  10  /opt/postal/app/spec/config/postal.yml
-'4  1  0  /opt/postal/log/worker.log
-'5  1  0  /opt/postal/log/rails.log
-'6  1  0  /opt/postal/log/puma.log
-'7  1  0  /opt/postal/app/log/rails.log
-'8  4  0  /opt/postal/app/spec/config/postal.yml
-'9  1  0  /opt/postal/app/spec/postal.yml
+'0  1  0  ~/.ssh/id_rsa.pub
+'1  53  46  /opt/postal/app/app/views/layouts/application.html.haml
+'2  94  5  /opt/postal/app/app/views/layouts/application.html.haml
+'3  1  0  /opt/postal/app/spec/config/postal.yml
+'4  17  10  /opt/postal/app/spec/config/postal.yml
+'5  1  0  /opt/postal/log/worker.log
+'6  1  0  /opt/postal/log/rails.log
+'7  1  0  /opt/postal/log/puma.log
+'8  1  0  /opt/postal/app/log/rails.log
+'9  4  0  /opt/postal/app/spec/config/postal.yml
 
 # Jumplist (newest first):
+-'  1  0  ~/.ssh/id_rsa.pub
 -'  53  46  /opt/postal/app/app/views/layouts/application.html.haml
 -'  1  0  /opt/postal/app/app/views/layouts/application.html.haml
 -'  94  5  /opt/postal/app/app/views/layouts/application.html.haml
@@ -141,6 +142,9 @@
 -'  17  10  /opt/postal/app/spec/config/postal.yml
 
 # History of marks within files (newest to oldest):
+
+> ~/.ssh/id_rsa.pub
+	"	1	0
 
 > /opt/postal/app/app/views/layouts/application.html.haml
 	"	53	46
