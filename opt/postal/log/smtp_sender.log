@@ -1,0 +1,26 @@
+# Logfile created on 2017-08-02 08:17:09 +0000 by logger.rb/56438
+[35m[worker.2:12014][0m [2017-08-02T08:17:09.154] INFO -- : [SEKN4OKD] Cannot connect to 2607:f8b0:400e:c06::1b:25 (aspmx.l.google.com) (Net::OpenTimeout: execution expired)
+[35m[worker.2:12014][0m [2017-08-02T08:17:09.345] INFO -- : [SEKN4OKD] Connected to 74.125.28.27:25 (aspmx.l.google.com)
+[35m[worker.2:12014][0m [2017-08-02T08:17:09.346] INFO -- : [SEKN4OKD] Sending message 1::1 to support@vaporb2b.com
+[35m[worker.2:12014][0m [2017-08-02T08:17:09.953] INFO -- : [SEKN4OKD] Message sent #1 to aspmx.l.google.com (74.125.28.27) for support@vaporb2b.com
+[35m[worker.2:12014][0m [2017-08-02T08:17:10.035] INFO -- : [SEKN4OKD] Finishing up
+[35m[worker.2:12014][0m [2017-08-02T08:17:49.850] INFO -- : [PJIJ5KYN] Cannot connect to 2607:f8b0:400e:c04::1b:25 (aspmx.l.google.com) (Net::OpenTimeout: execution expired)
+[35m[worker.2:12014][0m [2017-08-02T08:17:50.061] INFO -- : [PJIJ5KYN] Connected to 74.125.135.27:25 (aspmx.l.google.com)
+[35m[worker.2:12014][0m [2017-08-02T08:17:50.062] INFO -- : [PJIJ5KYN] Sending message 1::2 to president@worldvaporexpo.com
+[35m[worker.2:12014][0m [2017-08-02T08:17:50.760] INFO -- : [PJIJ5KYN] Message sent #2 to aspmx.l.google.com (74.125.135.27) for president@worldvaporexpo.com
+[35m[worker.2:12014][0m [2017-08-02T08:17:50.802] INFO -- : [PJIJ5KYN] Finishing up
+[35m[worker.2:12014][0m [2017-08-02T08:24:09.548] INFO -- : [NNVTTHWW] Cannot connect to 2607:f8b0:400e:c04::1a:25 (aspmx.l.google.com) (Net::OpenTimeout: execution expired)
+[35m[worker.2:12014][0m [2017-08-02T08:24:09.723] INFO -- : [NNVTTHWW] Connected to 74.125.28.27:25 (aspmx.l.google.com)
+[35m[worker.2:12014][0m [2017-08-02T08:24:09.724] INFO -- : [NNVTTHWW] Sending message 1::3 to president@worldvaporexpo.com
+[35m[worker.2:12014][0m [2017-08-02T08:24:10.330] INFO -- : [NNVTTHWW] Message sent #3 to aspmx.l.google.com (74.125.28.27) for president@worldvaporexpo.com
+[35m[worker.2:12014][0m [2017-08-02T08:24:10.373] INFO -- : [NNVTTHWW] Finishing up
+[35m[worker.2:12014][0m [2017-08-02T08:39:30.170] INFO -- : [U25WOFSF] Cannot connect to 2607:f8b0:400e:c04::1a:25 (aspmx.l.google.com) (Net::OpenTimeout: execution expired)
+[35m[worker.2:12014][0m [2017-08-02T08:39:30.322] INFO -- : [U25WOFSF] Connected to 74.125.28.27:25 (aspmx.l.google.com)
+[35m[worker.2:12014][0m [2017-08-02T08:39:30.323] INFO -- : [U25WOFSF] Sending message 1::4 to president@worldvaporexpo.com
+[35m[worker.2:12014][0m [2017-08-02T08:39:30.779] INFO -- : [U25WOFSF] Message sent #4 to aspmx.l.google.com (74.125.28.27) for president@worldvaporexpo.com
+[35m[worker.2:12014][0m [2017-08-02T08:39:30.810] INFO -- : [U25WOFSF] Finishing up
+[35m[worker.2:12014][0m [2017-08-02T22:26:20.669] INFO -- : [MUDBZU5K] Cannot connect to 2607:f8b0:400e:c05::1b:25 (aspmx.l.google.com) (Net::OpenTimeout: execution expired)
+[35m[worker.2:12014][0m [2017-08-02T22:26:20.869] INFO -- : [MUDBZU5K] Connected to 108.177.98.27:25 (aspmx.l.google.com)
+[35m[worker.2:12014][0m [2017-08-02T22:26:20.871] INFO -- : [MUDBZU5K] Sending message 1::5 to president@worldvaporexpo.com
+[35m[worker.2:12014][0m [2017-08-02T22:26:21.562] INFO -- : [MUDBZU5K] Message sent #5 to aspmx.l.google.com (108.177.98.27) for president@worldvaporexpo.com
+[35m[worker.2:12014][0m [2017-08-02T22:26:21.607] INFO -- : [MUDBZU5K] Finishing up

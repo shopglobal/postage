@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create a new user - Users API - API Documentation</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../../assets/reset.css">
+    <link rel="stylesheet" href="../../assets/style.css">
+  </head>
+  <body>
+    <section class='sidebarBackground'></section>
+    <section class="sidebar">
+      <nav>
+        <ul>
+          <li>
+            <a href='../../index.html' class="">
+              Home
+            </a>
+          </li>
+          
+          <li>
+            <a href='../../authenticators/default.html' class="">
+              Authentication
+            </a>
+          </li>
+          
+          
+          <li>
+            <a href='../../controllers/meta.html' class="">
+              Meta API
+            </a>
+          </li>
+          
+          <li>
+            <a href='../../controllers/users.html' class="active">
+              Users API
+            </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </section>
+    <section class='content'>
+      
+
+
+<h1>Create a new user</h1>
+
+<p class='text'>      This action will create a new user with the properties which have been provided.
+</p>
+
+
+<p class='tryFormActivate'><a class='tryFormActivate__button' href='#'>Try this request in your browser</a></p>
+<form class='tryForm'>
+  <input type='hidden' name='controller' value='users'>
+  <input type='hidden' name='action' value='create'>
+  <div class='tryForm__header'>
+    <input type='text' id='host' name='host' value=''>
+    /api/
+    <input type='text' id='version' name='version' value='v1' class='v'>
+    /users/create
+  </div>
+
+  
+  <p class='tryForm__heading'>Headers</p>
+  <table class='tryForm__table'>
+    
+    <tr>
+      <td width="50%"><code>X-Auth-Application</code></td>
+      <td width="50%"><input type='text' class='tryForm__tableField headerField' name='X-Auth-Application'></td>
+    </tr>
+    
+    <tr>
+      <td width="50%"><code>X-Auth-Token</code></td>
+      <td width="50%"><input type='text' class='tryForm__tableField headerField' name='X-Auth-Token'></td>
+    </tr>
+    
+  </table>
+  
+
+  
+  <p class='tryForm__heading'>Parameters</p>
+  <table class='tryForm__table'>
+    
+    <tr>
+      <td width="30%"><code>username</code></td>
+      <td width="20%">String</td>
+      <td width="50%"><input type='text' class='tryForm__tableField paramField' name='username' placeholder='' data-type='String'></td>
+    </tr>
+    
+    <tr>
+      <td width="30%"><code>first_name</code></td>
+      <td width="20%">String</td>
+      <td width="50%"><input type='text' class='tryForm__tableField paramField' name='first_name' placeholder='' data-type='String'></td>
+    </tr>
+    
+    <tr>
+      <td width="30%"><code>last_name</code></td>
+      <td width="20%">String</td>
+      <td width="50%"><input type='text' class='tryForm__tableField paramField' name='last_name' placeholder='' data-type='String'></td>
+    </tr>
+    
+    <tr>
+      <td width="30%"><code>email_address</code></td>
+      <td width="20%">String</td>
+      <td width="50%"><input type='text' class='tryForm__tableField paramField' name='email_address' placeholder='' data-type='String'></td>
+    </tr>
+    
+    <tr>
+      <td width="30%"><code>password</code></td>
+      <td width="20%">String</td>
+      <td width="50%"><input type='text' class='tryForm__tableField paramField' name='password' placeholder='' data-type='String'></td>
+    </tr>
+    
+    <tr>
+      <td width="30%"><code>admin</code></td>
+      <td width="20%">Boolean</td>
+      <td width="50%"><input type='text' class='tryForm__tableField paramField' name='admin' placeholder='' data-type='boolean'></td>
+    </tr>
+    
+  </table>
+  
+
+  
+
+  <p class='tryForm__button'>
+    <button class='tryForm__buttonLink' type='submit'>Make this request</button>
+    <button class='tryForm__buttonLink tryFormCancel' type='button'>Cancel</button>
+  </p>
+
+  <pre class='tryForm__output'>The request output will be shown here...</pre>
+</form>
+
+
+
+
+<h2>URL</h2>
+<p class='apiURLFull'><span>/api/v1/</span>users/create</p>
+
+
+
+
+  <h2>Access</h2>
+  <p class='text'>
+    Must be authenticated with a valid user API token.
+    
+    If not authorised, a <code>NotAuthenticated</code> error will be returned.
+    
+  </p>
+
+
+
+
+<h2>Parameters</h2>
+
+  <table class='table paramTable'>
+    <thead>
+      <tr>
+        <th width="60%">Parameter</th>
+        <th width="20%">Type</th>
+        <th width="20%">Default</th>
+      </tr>
+    </thead>
+    
+    <tr>
+      <td>
+        <p>
+          <span class='paramTable__name'>username</span>
+          
+        </p>
+        
+          <p class='paramTable__description'>The user's username</p>
+        
+      </td>
+      <td>String</td>
+      <td>
+        
+          <span class='paramTable__nil'>null</span>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <p>
+          <span class='paramTable__name'>first_name</span>
+          
+        </p>
+        
+          <p class='paramTable__description'>The user's first name</p>
+        
+      </td>
+      <td>String</td>
+      <td>
+        
+          <span class='paramTable__nil'>null</span>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <p>
+          <span class='paramTable__name'>last_name</span>
+          
+        </p>
+        
+          <p class='paramTable__description'>The user's last name</p>
+        
+      </td>
+      <td>String</td>
+      <td>
+        
+          <span class='paramTable__nil'>null</span>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <p>
+          <span class='paramTable__name'>email_address</span>
+          
+        </p>
+        
+          <p class='paramTable__description'>The user's e-mail address</p>
+        
+      </td>
+      <td>String</td>
+      <td>
+        
+          <span class='paramTable__nil'>null</span>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <p>
+          <span class='paramTable__name'>password</span>
+          
+        </p>
+        
+          <p class='paramTable__description'>The user's password</p>
+        
+      </td>
+      <td>String</td>
+      <td>
+        
+          <span class='paramTable__nil'>null</span>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <p>
+          <span class='paramTable__name'>admin</span>
+          
+        </p>
+        
+          <p class='paramTable__description'>Should this user be an admin?</p>
+        
+      </td>
+      <td>Boolean</td>
+      <td>
+        
+          <span class='paramTable__nil'>null</span>
+        
+      </td>
+    </tr>
+    
+  </table>
+
+
+
+
+<h2>Errors</h2>
+
+
+  <table class='table errorsTable'>
+  <thead>
+    <tr>
+      <th width="60%">Error</th>
+      <th width="40%">Attributes</th>
+    </tr>
+  </thead>
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>ValidationError</span>
+        
+          <p class='paramTable__description'>The details provided were not sufficient to save the user</p>
+        
+      </p>
+    </td>
+    <td>
+      
+      <ul class='errorAttributeList'>
+        
+        <li>
+          <p class='errorAttributeList__name'>errors</p>
+          <p class='errorAttributeList__desc'>An array of errors for each field</p>
+        </li>
+        
+      </ul>
+      
+    </td>
+  </tr>
+  
+</table>
+
+
+
+
+<h2>Response Data</h2>
+
+  
+    <p class='text'>This action will return a <a class='link' href='../../structures/user.html'>user structure</a>.</p>
+  
+
+  
+    
+      
+      You'll receive all attributes for this structure (basic and extended attributes).
+      
+      
+    
+  
+
+
+
+    </section>
+    <footer class='footer'>
+      <p>Generated by Moonrope at 12:43 on Monday 22 February 2016 for d3c499</p>
+    </footer>
+    <script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
+    <script src='../../assets/try.js'></script>
+  </body>
+</html>

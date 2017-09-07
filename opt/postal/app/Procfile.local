@@ -1,0 +1,7 @@
+---
+processes:
+  worker:
+    quantity: 1
+  fast:
+    quantity: 1
+

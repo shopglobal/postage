@@ -1,0 +1,41 @@
+---
+0.1.0 |checksum:4de60e3f165a3fe110caa87c3df941d0069a84412ebec1ad921cfc385e30df3a
+0.1.1 |checksum:f18f8000972861380d6f24660e329721c871f604fa2d4992cad29ef67c0c4cda
+0.2.0 |checksum:56f57031669a9f7c0587371d40a4530302546e2c355834bc4c6cfabdb74c644c
+0.2.1 |checksum:3b37b019a877a3d17bc59b62d99c524b872c017ece839b0e3f2457bc6a911f7b
+0.2.2 |checksum:13b7e72b0fb651fb2b0f1c6a863b77492effd22c613dda6e4ae355ff64e3cb10
+0.2.3 |checksum:3250b0cda9e8c797ab801481b2471e9faa3d57a9c004da6526610b894153b3cf
+0.2.4 |checksum:95a14370b588afdc6a942eba5d6091c140891e9b6f697379983f8ed23dbbfb19
+0.3.0 |checksum:78570cf456783147e4a4a7cbc412b587a94552c536a236c9b62d66d6ba65e684
+0.3.1 |checksum:f08de4bc73632844c0be12880ea16bf7ed79c19a9481508cefdfdc34969a53fd
+0.3.2 |checksum:cb78133adc0be5e4c81bb93437b81e8c93ac2f62e4afa890b4b0f2f2974a3162
+0.3.3 |checksum:c2514a0f2ae83b9da1328e5d4a8ebd3fa5c196b4adb31bc52f02404185fbd2a3
+0.3.4 |checksum:f689cf7e382d78f1f27e07939ea600d1279a082b4cc80b208b0769e3b10a61b5
+0.4.0 tzinfo:>= 0|checksum:cb1fedc6085bf19587595c9d3a37a5db42d69fa8526092041443e24ac2d46f06
+0.4.1 tzinfo:>= 0|checksum:dae46c764b5ae90062960bda66fddeddea84e28ad43dcee003859f49f1083839
+0.5.0 tzinfo:~> 0.3.35|checksum:df431939d6d5f8f0a5ecf838c8e851efb930a1695727d8151a41db9c59c4762e
+0.5.1 tzinfo:~> 0.3.35|checksum:48eda7b8d4e86b3de93553e1e06a193c499db928267da1084ad59c492cb4b273
+0.5.2 activesupport:>= 0,tzinfo:~> 0.3.35|checksum:d9eccfe5aea30227781b6be633fda00a444ab50f1a949a6dbe6c69add0f25567
+0.5.3 activesupport:~> 4.0.0,tzinfo:~> 0.3.35|checksum:8e907760bde8e5fdacfd7e00f564cf3fdf57a5f96610543c8f81725ba9522828
+0.5.4 activesupport:>= 0,tzinfo:~> 0.3.35|checksum:ed03d1c1c4c7201980a65771f2824532662d93c5591dd2fe31894a2deab5975f
+0.5.5 activesupport:>= 0,tzinfo:~> 0.3.35|checksum:318085e5bb31d9139d55450370cf6b869c8362e5ce93e02b0299a1fc10dd646e
+0.6.0 activesupport:>= 0,tzinfo:~> 0.3.35|checksum:05fb6d0f7f9b7e482157a809eb9a111bf3db1b5a887c0db601482555601e7cca
+0.6.1 activesupport:>= 0,tzinfo:~> 0.3.35|checksum:b85cc01c78ed8d1a825288bb69af0a255e1a3b2d747a0b50f119d5b7976da68d
+0.6.2 activesupport:>= 0,tzinfo:~> 0.3.35|checksum:8dd17f9e2d097faebe63218ebd01218c4223ce9e1eb0840b8634ce79c441ec9b
+0.7.0 activesupport:>= 0,tzinfo:~> 0.3.35|checksum:718fd2b832a6faa7390e3319c25edaa60bd96d9fd25490a73c517b9fe0175a22
+0.7.1 activesupport:>= 0,tzinfo:~> 0.3.35|checksum:dab4e5ad60989351c185dbdf19982fe22a7f5c05606d4a96323ab2e5a42dfee8
+0.7.2 activesupport:>= 0,tzinfo:>= 0|checksum:b24872fe276953fb02059e1f572209aaf5aba1a44d0727c14056079049489fa3
+0.7.3 activesupport:>= 0,tzinfo:>= 0|checksum:32808f04ead631c0ff421a1636ae0d07f352d9bb989c3c3cf03cec6e477ac72d
+0.7.4 activesupport:>= 0,tzinfo:>= 0|checksum:90b5efbbdaaf9fac98e994a407a722ed2d21baf129f839d6345d5ffb73059d83
+0.7.5 activesupport:>= 0,tzinfo:>= 0|checksum:b97a95a2c2b6187668899dbb126a2f92e45399e5eb6ec2feb1d4d7dfd17b9309
+0.7.7 activesupport:>= 0,tzinfo:>= 0|checksum:1d7686ce0b4e02a1fb60ad8663aa81e9f2b52fd2c298ebd15bbe37e2eb352f95
+1.0.0 activesupport:>= 0,tzinfo:>= 0|checksum:b4cfd7c37aa64ad215d1dc52e79cf78eb0ef9e59fc7ffcfb948f9e577d95a148
+1.0.2 activesupport:>= 0,tzinfo:>= 0|checksum:22ae6033303d0fcc09fc170a9e3ca26d9e9b5a7b2ab7432c7e506c78a0a4163c
+1.1.0 activesupport:>= 0,tzinfo:>= 0|checksum:df1fcf0e96162b7fbef06df9607defe8816da9342c0d09f3e0f2f5f23e0d9bd4
+1.2.0 activesupport:>= 0,tzinfo:>= 0|checksum:0f323fae1df727eda33fd36788dc5d710adb18154a1345b092753aa4b6e61b9c
+2.0.0 activesupport:>= 0,tzinfo:>= 0|checksum:67226907454331e544e6fcb6505ad556c62f06c199d983e6dd4465db597621dd
+1.2.1 activesupport:>= 0,tzinfo:>= 0|checksum:a6ce0fd8ba71a9be822529ecc3498fb660b9e7634035993410f69f609b7b5fa7
+1.3.0 activesupport:>= 0,tzinfo:>= 0|checksum:ef4d208018ef0ac1fdb3407c7fe6852f5547af00f38c40e3e64fe640f0395466
+1.3.1 activesupport:>= 0,tzinfo:>= 0|checksum:8d7e3560720c776cf029336ec498647f8d1af15296e78e8f2df686d9a2daf9f6
+2.0.1 activesupport:>= 0,tzinfo:>= 0|checksum:2f81eb09395d15a83befb8c9235aa3be423bffc19266de3e3dbd02dc20e9418d
+2.0.2 activesupport:>= 0,tzinfo:>= 0|checksum:8bd227cf60181d9ca7db52ecb895cd8fa2ed0b5d0e7f8a24bf939362cc53986f

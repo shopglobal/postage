@@ -1,0 +1,67 @@
+web:
+  # The host that the management interface will be available on
+  host: mail.vsendv.com 
+  # The protocol that requests to the management interface should happen on
+  protocol: https
+
+fast_server:
+  # This can be enabled to enable click & open tracking on emails. It is disabled by
+  # default as it requires a separate static IP address on your server.
+  enabled: true
+  bind_address: 138.68.192.134
+
+general:
+  # This can be changed to allow messages to be sent from multiple IP addresses
+  use_ip_pools: false
+
+main_db:
+  # Specify the connection details for your MySQL database
+  host: 127.0.0.1
+  username: postal
+  password: p0stalpassw0rd
+  database: postal
+
+message_db:
+  # Specify the connection details for your MySQL server that will be house the
+  # message databases for mail servers.
+  host: 127.0.0.1
+  username: postal
+  password: p0stalpassw0rd
+  prefix: postal
+
+rabbitmq:
+  # Specify the connection details for your RabbitMQ server.
+  host: 127.0.0.1
+  username: postal
+  password: p0stalpassw0rd
+  vhost: /postal
+
+dns:
+  mx_records:
+    - mx.mail.vsendv.com
+  smtp_server_hostname: mail.vsendv.com
+  spf_include: spf.mail.vsendv.com
+  return_path: rp.mail.vsendv.com
+  route_domain: routes.mail.vsendv.com
+  track_domain: track.mail.vsendv.com
+  helo_hostname: # By default, this will be the same as the `smtp_server_hostname`
+  dkim_identifier: vsend
+  domain_verify_prefix: vsendv_
+  custom_return_path_prefix: vsend
+
+
+smtp:
+  # Specify an SMTP server that can be used to send messages from the Postal management
+  # system to users. You can configure this to use a Postal mail server once the
+  # your installation has been set up.
+  host: 127.0.0.1
+  port: 2525
+  username: # Complete when Postal is running and you can
+  password: # generate the credentials within the interface.
+  from_name: VsendV
+  from_address: support@vsendv.com
+
+rails:
+  # This is generated automatically by the config initialization. It should be a random
+  # string unique to your installation.
+  secret_key: 8a9e2a6f2d7c2c60c2254e156c345b968adbfec19de801757f16b4fd2a8d8114fb8a578135e4f657b2226b9ea06e2551a5f4b79f8bfa477bd473e65ca70232de1d127bc1cc5893a6af092ba13c54657e74ca385ad68796a98efdd9149d21b15a7dd1c18a15074ab480c0a2b8834ba98b202d844322d384977f3461a78969f2ed

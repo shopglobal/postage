@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>List all users - Users API - API Documentation</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../../assets/reset.css">
+    <link rel="stylesheet" href="../../assets/style.css">
+  </head>
+  <body>
+    <section class='sidebarBackground'></section>
+    <section class="sidebar">
+      <nav>
+        <ul>
+          <li>
+            <a href='../../index.html' class="">
+              Home
+            </a>
+          </li>
+          
+          <li>
+            <a href='../../authenticators/default.html' class="">
+              Authentication
+            </a>
+          </li>
+          
+          
+          <li>
+            <a href='../../controllers/meta.html' class="">
+              Meta API
+            </a>
+          </li>
+          
+          <li>
+            <a href='../../controllers/users.html' class="active">
+              Users API
+            </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </section>
+    <section class='content'>
+      
+
+
+<h1>List all users</h1>
+
+<p class='text'>This action will return a list of all users which the authenticated user has access to.</p>
+
+
+<p class='tryFormActivate'><a class='tryFormActivate__button' href='#'>Try this request in your browser</a></p>
+<form class='tryForm'>
+  <input type='hidden' name='controller' value='users'>
+  <input type='hidden' name='action' value='list'>
+  <div class='tryForm__header'>
+    <input type='text' id='host' name='host' value=''>
+    /api/
+    <input type='text' id='version' name='version' value='v1' class='v'>
+    /users/list
+  </div>
+
+  
+  <p class='tryForm__heading'>Headers</p>
+  <table class='tryForm__table'>
+    
+    <tr>
+      <td width="50%"><code>X-Auth-Application</code></td>
+      <td width="50%"><input type='text' class='tryForm__tableField headerField' name='X-Auth-Application'></td>
+    </tr>
+    
+    <tr>
+      <td width="50%"><code>X-Auth-Token</code></td>
+      <td width="50%"><input type='text' class='tryForm__tableField headerField' name='X-Auth-Token'></td>
+    </tr>
+    
+  </table>
+  
+
+  
+  <p class='tryForm__heading'>Parameters</p>
+  <table class='tryForm__table'>
+    
+    <tr>
+      <td width="30%"><code>page</code></td>
+      <td width="20%">Integer</td>
+      <td width="50%"><input type='text' class='tryForm__tableField paramField' name='page' placeholder='1' data-type='Integer'></td>
+    </tr>
+    
+    <tr>
+      <td width="30%"><code>per_page</code></td>
+      <td width="20%">Integer</td>
+      <td width="50%"><input type='text' class='tryForm__tableField paramField' name='per_page' placeholder='30' data-type='Integer'></td>
+    </tr>
+    
+    <tr>
+      <td width="30%"><code>sort_by</code></td>
+      <td width="20%">String</td>
+      <td width="50%"><input type='text' class='tryForm__tableField paramField' name='sort_by' placeholder='username' data-type='String'></td>
+    </tr>
+    
+    <tr>
+      <td width="30%"><code>order</code></td>
+      <td width="20%">String</td>
+      <td width="50%"><input type='text' class='tryForm__tableField paramField' name='order' placeholder='asc' data-type='String'></td>
+    </tr>
+    
+    <tr>
+      <td width="30%"><code>filters</code></td>
+      <td width="20%">Hash</td>
+      <td width="50%"><input type='text' class='tryForm__tableField paramField' name='filters' placeholder='{}' data-type='Hash'></td>
+    </tr>
+    
+  </table>
+  
+
+  
+
+  <p class='tryForm__button'>
+    <button class='tryForm__buttonLink' type='submit'>Make this request</button>
+    <button class='tryForm__buttonLink tryFormCancel' type='button'>Cancel</button>
+  </p>
+
+  <pre class='tryForm__output'>The request output will be shown here...</pre>
+</form>
+
+
+
+
+<h2>URL</h2>
+<p class='apiURLFull'><span>/api/v1/</span>users/list</p>
+
+
+
+
+  <h2>Access</h2>
+  <p class='text'>
+    Must be authenticated with a valid user API token.
+    
+    If not authorised, a <code>NotAuthenticated</code> error will be returned.
+    
+  </p>
+
+
+
+
+<h2>Parameters</h2>
+
+  <table class='table paramTable'>
+    <thead>
+      <tr>
+        <th width="60%">Parameter</th>
+        <th width="20%">Type</th>
+        <th width="20%">Default</th>
+      </tr>
+    </thead>
+    
+    <tr>
+      <td>
+        <p>
+          <span class='paramTable__name'>page</span>
+          
+        </p>
+        
+          <p class='paramTable__description'>The page number</p>
+        
+      </td>
+      <td>Integer</td>
+      <td>
+        
+          1
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <p>
+          <span class='paramTable__name'>per_page</span>
+          
+        </p>
+        
+          <p class='paramTable__description'>The number of items to return per page</p>
+        
+      </td>
+      <td>Integer</td>
+      <td>
+        
+          30
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <p>
+          <span class='paramTable__name'>sort_by</span>
+          
+        </p>
+        
+          <p class='paramTable__description'>The field to sort by</p>
+        
+      </td>
+      <td>String</td>
+      <td>
+        
+          username
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <p>
+          <span class='paramTable__name'>order</span>
+          
+        </p>
+        
+          <p class='paramTable__description'>The direction to order units by</p>
+        
+      </td>
+      <td>String</td>
+      <td>
+        
+          asc
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <p>
+          <span class='paramTable__name'>filters</span>
+          
+        </p>
+        
+          <p class='paramTable__description'>A hash of filters to apply to results</p>
+        
+      </td>
+      <td>Hash</td>
+      <td>
+        
+          {}
+        
+      </td>
+    </tr>
+    
+  </table>
+
+
+
+<h2>Filtering</h2>
+<p class='text'>
+  This action supports filtering. You can filter the results which you receive by
+  providing filters in the <code>filters</code> parameter. The following attributes
+  are supported for filtering.
+</p>
+<table class='table paramTable'>
+  <thead>
+    <tr>
+      <th width="40%">Attribute</th>
+      <th width="60%">Supported Operators</th>
+    </tr>
+  </thead>
+  
+  <tr>
+    <td><span class='paramTable__name'>username</span></td>
+    <td>eq, not_eq, starts_with, ends_with, in, not_in</td>
+  </tr>
+  
+  <tr>
+    <td><span class='paramTable__name'>age</span></td>
+    <td>eq, not_eq, gt, gte, lt, lte, in, not_in</td>
+  </tr>
+  
+  <tr>
+    <td><span class='paramTable__name'>admin</span></td>
+    <td>eq, not_eq</td>
+  </tr>
+  
+</table>
+
+
+
+<h2>Errors</h2>
+
+
+  <table class='table errorsTable'>
+  <thead>
+    <tr>
+      <th width="60%">Error</th>
+      <th width="40%">Attributes</th>
+    </tr>
+  </thead>
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>FilterError</span>
+        
+          <p class='paramTable__description'>An error has occurred while processing filters for this action</p>
+        
+      </p>
+    </td>
+    <td>
+      
+      <ul class='errorAttributeList'>
+        
+        <li>
+          <p class='errorAttributeList__name'>issue_code</p>
+          <p class='errorAttributeList__desc'>A more specific issue code</p>
+        </li>
+        
+        <li>
+          <p class='errorAttributeList__name'>issue_message</p>
+          <p class='errorAttributeList__desc'>A more specific message about the issue</p>
+        </li>
+        
+      </ul>
+      
+    </td>
+  </tr>
+  
+</table>
+
+
+
+
+<h2>Response Data</h2>
+
+  
+    <p class='text'>This action will return an array of <a class='link' href='../../structures/user.html'>user structures</a>.</p>
+  
+
+  
+    You'll receive just the basic attributes for this structure. No expansions are provided.
+  
+
+
+
+    </section>
+    <footer class='footer'>
+      <p>Generated by Moonrope at 12:43 on Monday 22 February 2016 for d3c499</p>
+    </footer>
+    <script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
+    <script src='../../assets/try.js'></script>
+  </body>
+</html>

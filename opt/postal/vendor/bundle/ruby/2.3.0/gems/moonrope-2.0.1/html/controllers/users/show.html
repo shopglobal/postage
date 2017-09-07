@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Get unit information - Users API - API Documentation</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../../assets/reset.css">
+    <link rel="stylesheet" href="../../assets/style.css">
+  </head>
+  <body>
+    <section class='sidebarBackground'></section>
+    <section class="sidebar">
+      <nav>
+        <ul>
+          <li>
+            <a href='../../index.html' class="">
+              Home
+            </a>
+          </li>
+          
+          <li>
+            <a href='../../authenticators/default.html' class="">
+              Authentication
+            </a>
+          </li>
+          
+          
+          <li>
+            <a href='../../controllers/meta.html' class="">
+              Meta API
+            </a>
+          </li>
+          
+          <li>
+            <a href='../../controllers/users.html' class="active">
+              Users API
+            </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </section>
+    <section class='content'>
+      
+
+
+<h1>Get unit information</h1>
+
+
+<p class='tryFormActivate'><a class='tryFormActivate__button' href='#'>Try this request in your browser</a></p>
+<form class='tryForm'>
+  <input type='hidden' name='controller' value='users'>
+  <input type='hidden' name='action' value='show'>
+  <div class='tryForm__header'>
+    <input type='text' id='host' name='host' value=''>
+    /api/
+    <input type='text' id='version' name='version' value='v1' class='v'>
+    /users/show
+  </div>
+
+  
+  <p class='tryForm__heading'>Headers</p>
+  <table class='tryForm__table'>
+    
+    <tr>
+      <td width="50%"><code>X-Auth-Application</code></td>
+      <td width="50%"><input type='text' class='tryForm__tableField headerField' name='X-Auth-Application'></td>
+    </tr>
+    
+    <tr>
+      <td width="50%"><code>X-Auth-Token</code></td>
+      <td width="50%"><input type='text' class='tryForm__tableField headerField' name='X-Auth-Token'></td>
+    </tr>
+    
+  </table>
+  
+
+  
+  <p class='tryForm__heading'>Parameters</p>
+  <table class='tryForm__table'>
+    
+    <tr>
+      <td width="30%"><code>username</code></td>
+      <td width="20%">String</td>
+      <td width="50%"><input type='text' class='tryForm__tableField paramField' name='username' placeholder='' data-type='String'></td>
+    </tr>
+    
+  </table>
+  
+
+  
+  <p class='tryForm__heading'>Structures</p>
+  <table class='tryForm__table'>
+    
+    <tr>
+      <td width="50%">Include extended attributes?</td>
+      <td width="50%">
+        <div class='tryForm__checkbox'>
+          <input type='checkbox' class='tryForm__fullAttrs' name='full' id="full_attrs" >
+          <label for="full_attrs">Yes - include extended attributes</label>
+        </div>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td width="50%">Include expansions?</td>
+      <td width="50%">
+        
+          <div class='tryForm__checkbox'>
+            <input type='checkbox' class='tryForm__expansions' name='pets' id="expan_pets" >
+            <label for="expan_pets">pets</label>
+          </div>
+        
+          <div class='tryForm__checkbox'>
+            <input type='checkbox' class='tryForm__expansions' name='balance' id="expan_balance" >
+            <label for="expan_balance">balance</label>
+          </div>
+        
+          <div class='tryForm__checkbox'>
+            <input type='checkbox' class='tryForm__expansions' name='hidden' id="expan_hidden" >
+            <label for="expan_hidden">hidden</label>
+          </div>
+        
+      </td>
+    </tr>
+    
+
+  </table>
+
+  
+
+  <p class='tryForm__button'>
+    <button class='tryForm__buttonLink' type='submit'>Make this request</button>
+    <button class='tryForm__buttonLink tryFormCancel' type='button'>Cancel</button>
+  </p>
+
+  <pre class='tryForm__output'>The request output will be shown here...</pre>
+</form>
+
+
+
+
+<h2>URL</h2>
+<p class='apiURLFull'><span>/api/v1/</span>users/show</p>
+
+
+
+
+  <h2>Access</h2>
+  <p class='text'>
+    Must be authenticated with a valid user API token.
+    
+    If not authorised, a <code>NotAuthenticated</code> error will be returned.
+    
+  </p>
+
+
+
+
+<h2>Parameters</h2>
+
+  <table class='table paramTable'>
+    <thead>
+      <tr>
+        <th width="60%">Parameter</th>
+        <th width="20%">Type</th>
+        <th width="20%">Default</th>
+      </tr>
+    </thead>
+    
+    <tr>
+      <td>
+        <p>
+          <span class='paramTable__name'>username</span>
+          <span class='paramTable__req'>Required</span>
+        </p>
+        
+          <p class='paramTable__description'>The user's username</p>
+        
+      </td>
+      <td>String</td>
+      <td>
+        
+          <span class='paramTable__nil'>null</span>
+        
+      </td>
+    </tr>
+    
+  </table>
+
+
+
+
+<h2>Errors</h2>
+
+
+  <table class='table errorsTable'>
+  <thead>
+    <tr>
+      <th width="60%">Error</th>
+      <th width="40%">Attributes</th>
+    </tr>
+  </thead>
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>UserNotFound</span>
+        
+          <p class='paramTable__description'>No user was found matching the given username</p>
+        
+      </p>
+    </td>
+    <td>
+      
+      <ul class='errorAttributeList'>
+        
+        <li>
+          <p class='errorAttributeList__name'>username</p>
+          <p class='errorAttributeList__desc'>The username which was looked up</p>
+        </li>
+        
+      </ul>
+      
+    </td>
+  </tr>
+  
+</table>
+
+
+
+
+<h2>Response Data</h2>
+
+  
+    <p class='text'>This action will return a <a class='link' href='../../structures/user.html'>user structure</a>.</p>
+  
+
+  
+    
+      <p class='text'>
+        You'll receive this structure in the most basic form, without extended data or
+        any expansions. You can choose to receive extended attributes by providing the <code>_full</code> parameter. You can
+        also choose to receive any expansions by providing an array in the <code>_expansions</code>
+        parameter. A full list of expansions can be found on the
+        <a class='link' href='../../structures/user.html'>structure page</a>.
+      </p>
+    
+  
+
+
+
+    </section>
+    <footer class='footer'>
+      <p>Generated by Moonrope at 12:43 on Monday 22 February 2016 for d3c499</p>
+    </footer>
+    <script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
+    <script src='../../assets/try.js'></script>
+  </body>
+</html>

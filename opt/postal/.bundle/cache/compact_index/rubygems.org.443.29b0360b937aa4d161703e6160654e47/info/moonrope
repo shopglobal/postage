@@ -1,0 +1,22 @@
+---
+1.0.0 json:~> 1.8,rack:~> 1.5|checksum:f6ac1ea042a0dc5151815b1ae90b80f3537b25922ace6d36f8efe32443e59815
+1.0.2 json:~> 1.8,rack:~> 1.5|checksum:4ba88556d11ce1a2073a915049ba19e4564afdf784169adda8c164004bfc97d0
+1.1.0 json:~> 1.7,rack:~> 1.4|checksum:4735bdd8ff230800751578bbb2660ca8af6c9d37506ca766b03602f678601670
+1.1.1 json:~> 1.7,rack:~> 1.4|checksum:db231970836d38a5321c839e6db1f8758c230bda72183ce0314f1428f7410107
+1.1.2 json:~> 1.7,rack:~> 1.4|checksum:c0d0c1efe3bb3aa04d3db4f13da4713929ec97a63133f6ddbef3be0674c9331f
+1.1.3 json:~> 1.7,rack:~> 1.4|checksum:ffd49372dd76891e090d610ddc8a1612a046fa5e3de485ef483d757be6259a39
+1.1.4 json:~> 1.7,rack:~> 1.4|checksum:ba1edea72341e3d000d5d3bad3bd6176a8864741dabd51e099111d241c1aadef
+1.2.0 deep_merge:~> 1.0,json:~> 1.7,rack:~> 1.4|checksum:6efe603706ad60aa449634da7cb8735f58e9f24397440460bf434f2822d6cb9d
+1.2.1 deep_merge:~> 1.0,json:~> 1.7,rack:~> 1.4|checksum:1a798808574bfa268e8d5c03cfc02ef160c0569ea9cec1c6b1d85cc8bcb595c7
+1.2.2 deep_merge:~> 1.0,json:~> 1.7,rack:~> 1.4|checksum:6df7ea5d659560e9d4948a025cb74a507bc8c7ac97eb5767e4f746801ecc8745
+1.2.3 deep_merge:~> 1.0,json:~> 1.7,rack:~> 1.4|checksum:8ebae707b1e50fb39fccc8db565b758990960b9da882a7cff13adf36a5455d4e
+1.2.4 deep_merge:~> 1.0,json:~> 1.7,rack:~> 1.4|checksum:11ab84de78d08a7d62b656f227863915ec4aa2a2f397b85fb1ad527948845a60
+1.2.5 deep_merge:~> 1.0,json:~> 1.7,rack:~> 1.4|checksum:81e070bba529a6c8f4faeb33b9286df6143914b40974845868dae7d556f7e88b
+1.3.0 deep_merge:~> 1.0,json:~> 1.7,rack:~> 1.4|checksum:e54411ac15c5cd74dd4cabdbdee186cd4f25614ea2430f1f55d23f9a4e60dd86
+1.3.1 deep_merge:~> 1.0,json:~> 1.7,rack:~> 1.4|checksum:e710355fa44705b39a9b3f7b3acffc0f1524819f06e8d7a8e5c659c9652c6d90
+1.3.2 deep_merge:~> 1.0,json:~> 1.7,rack:~> 1.4|checksum:64cdbf02d6db26fa88e089dfb5f40156a619f5dbad3847042b4a68183b4403d0
+1.3.3 deep_merge:~> 1.0,json:~> 1.7,rack:~> 1.4|checksum:eadacf7a0fbbf7c9373e57a9c12113b92e8fbb0d057eadc7ba1a5450d4ed44c8
+1.4.0 deep_merge:~> 1.0,json:~> 1.7,rack:~> 1.4|checksum:1eabb72d3b3e88aab1aa821d1443c7b2c9bb07432ff28a52c337c7fea3856bb8
+1.4.1 deep_merge:~> 1.0,json:~> 1.7,rack:~> 1.4|checksum:b59f8f0699d05e084e085daab5d0230ebe443f4d676facf192fa78b62005c9ca
+2.0.0 deep_merge:~> 1.0,json:~> 1.7,rack:>= 1.4|checksum:ed2e083d9a53e19524baa3b48cdb899d2fd1d293be4c5a27a56938cf78b44473
+2.0.1 deep_merge:~> 1.0,json:~> 1.7,rack:>= 1.4|checksum:b651bc065e0c295d95a824a4a207f3853fa8fc4ce17bc51d454170485d587a7f

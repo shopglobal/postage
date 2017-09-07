@@ -1,0 +1,24 @@
+current directory: /opt/postal/vendor/bundle/ruby/2.3.0/gems/puma-3.8.2/ext/puma_http11
+/usr/bin/ruby2.3 -r ./siteconf20170731-21480-18mvq3q.rb extconf.rb
+checking for BIO_read() in -lcrypto... no
+checking for BIO_read() in -llibeay32... no
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /opt/postal/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/puma-3.8.2/mkmf.log
+
+current directory: /opt/postal/vendor/bundle/ruby/2.3.0/gems/puma-3.8.2/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /opt/postal/vendor/bundle/ruby/2.3.0/gems/puma-3.8.2/ext/puma_http11
+make "DESTDIR="
+compiling mini_ssl.c
+compiling http11_parser.c
+compiling puma_http11.c
+compiling io_buffer.c
+linking shared-object puma/puma_http11.so
+
+current directory: /opt/postal/vendor/bundle/ruby/2.3.0/gems/puma-3.8.2/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20170731-21480-146sue/puma

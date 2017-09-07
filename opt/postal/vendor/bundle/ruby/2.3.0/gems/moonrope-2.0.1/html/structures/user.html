@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Structure - API Documentation</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../assets/reset.css">
+    <link rel="stylesheet" href="../assets/style.css">
+  </head>
+  <body>
+    <section class='sidebarBackground'></section>
+    <section class="sidebar">
+      <nav>
+        <ul>
+          <li>
+            <a href='../index.html' class="">
+              Home
+            </a>
+          </li>
+          
+          <li>
+            <a href='../authenticators/default.html' class="">
+              Authentication
+            </a>
+          </li>
+          
+          
+          <li>
+            <a href='../controllers/meta.html' class="">
+              Meta API
+            </a>
+          </li>
+          
+          <li>
+            <a href='../controllers/users.html' class="">
+              Users API
+            </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </section>
+    <section class='content'>
+      
+
+<h1>User Structure</h1>
+
+<h2>Base Attributes</h2>
+<table class='table paramTable'>
+  <thead>
+    <tr>
+      <th width="45%">Attribute</th>
+      <th width="20%">Type</th>
+      <th width="35%">Example</th>
+    </tr>
+  </thead>
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>id</span>
+      </p>
+      
+        <p class='paramTable__description'>The user's internal system ID</p>
+      
+
+      
+      
+    </td>
+    <td>Integer</td>
+    <td>
+      
+        123
+      
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>username</span>
+      </p>
+      
+        <p class='paramTable__description'>The user's unique username</p>
+      
+
+      
+      
+    </td>
+    <td>String</td>
+    <td>
+      
+        adamcooke
+      
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>name.first</span>
+      </p>
+      
+        <p class='paramTable__description'>The user's first name</p>
+      
+
+      
+      
+    </td>
+    <td>String</td>
+    <td>
+      
+        Adam
+      
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>name.last</span>
+      </p>
+      
+        <p class='paramTable__description'>The user's last name</p>
+      
+
+      
+      
+    </td>
+    <td>String</td>
+    <td>
+      
+        Cooke
+      
+    </td>
+  </tr>
+  
+
+  
+</table>
+
+
+
+
+<h2>Extended Attributes</h2>
+<table class='table paramTable'>
+  <thead>
+    <tr>
+      <th width="45%">Attribute</th>
+      <th width="20%">Type</th>
+      <th width="35%">Example</th>
+    </tr>
+  </thead>
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>admin</span>
+      </p>
+      
+        <p class='paramTable__description'>Is this user an administrator?</p>
+      
+
+      
+      
+    </td>
+    <td>Boolean</td>
+    <td>
+      
+        false
+      
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>created_at</span>
+      </p>
+      
+        <p class='paramTable__description'>The timestamp the user was created</p>
+      
+
+      
+      
+    </td>
+    <td>Timestamp</td>
+    <td>
+      
+        2016-12-25 09:42:00 +0000
+      
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>updated_at</span>
+      </p>
+      
+        <p class='paramTable__description'>The timestamp the user was updated</p>
+      
+
+      
+      
+    </td>
+    <td>Timestamp</td>
+    <td>
+      
+        2016-12-25 09:42:00 +0000
+      
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>support_pin</span>
+      </p>
+      
+        <p class='paramTable__description'>The PIN this user needs to use to access support</p>
+      
+
+      
+      
+        <ul class='paramTable__restrictedList'>
+          
+          <li>Can only be accessed by API users with admin access</li>
+          
+        </ul>
+      
+    </td>
+    <td>String</td>
+    <td>
+      
+        4953
+      
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>mask</span>
+      </p>
+      
+        <p class='paramTable__description'>The unique mask that represents this user</p>
+      
+
+      
+      
+        <ul class='paramTable__restrictedList'>
+          
+          <li>Must not be authenticated (no auth headers provided).</li>
+          
+        </ul>
+      
+    </td>
+    <td>String</td>
+    <td>
+      
+        abc123abc123
+      
+    </td>
+  </tr>
+  
+
+  
+</table>
+
+
+
+
+<h2>Expansions</h2>
+<p class='text'>
+  Expansions are embedded structures of other objects that are related to the structure
+  that you're viewing. Which expansions are returned by a specific action are shown on that
+  action's documentation however some actions allow you to choose which expansions are
+  returned.
+</p>
+<table class='table paramTable'>
+  <thead>
+    <tr>
+      <th width="45%">Attribute</th>
+      <th width="20%">Type</th>
+      <th width="35%">Example</th>
+    </tr>
+  </thead>
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>pets</span>
+      </p>
+      
+        <p class='paramTable__description'>All pets that belong to this user</p>
+      
+
+      
+      
+    </td>
+    <td>Array</td>
+    <td>
+      
+        <a class='link' href="../structures/pet.html">Pet structure</a>
+      
+    </td>
+  </tr>
+  
+
+  
+  
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'>balance</span>
+      </p>
+      
+        <p class='paramTable__description'>The user's balance</p>
+      
+    </td>
+    <td>Float</td>
+    <td>12.5</td>
+  </tr>
+  
+  
+</table>
+
+
+
+    </section>
+    <footer class='footer'>
+      <p>Generated by Moonrope at 12:43 on Monday 22 February 2016 for d3c499</p>
+    </footer>
+    <script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
+    <script src='../assets/try.js'></script>
+  </body>
+</html>

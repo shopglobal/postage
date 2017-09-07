@@ -1,0 +1,55 @@
+<table class='table paramTable'>
+  <thead>
+    <tr>
+      <th width="45%">Attribute</th>
+      <th width="20%">Type</th>
+      <th width="35%">Example</th>
+    </tr>
+  </thead>
+  <% for attribute in attributes %>
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'><%= attribute.name_with_groups %></span>
+      </p>
+      <% if attribute.description %>
+        <p class='paramTable__description'><%= attribute.description %></p>
+      <% end %>
+
+      <% conditions = attribute.conditions.map { |c| structure.description_for_condition(c) }.compact %>
+      <% unless conditions.empty? %>
+        <ul class='paramTable__restrictedList'>
+          <% for condition in conditions %>
+          <li><%= condition %></li>
+          <% end %>
+        </ul>
+      <% end %>
+    </td>
+    <td><%= friendly_type(attribute.value_type) %></td>
+    <td>
+      <% if substructure = attribute.structure %>
+        <a class='link' href="<%= path("structures/#{substructure}.html")%>"><%= humanize(substructure.to_s.capitalize) %> structure</a>
+      <% else %>
+        <%= attribute.example %>
+      <% end %>
+    </td>
+  </tr>
+  <% end %>
+
+  <% if vars[:expansions] && !vars[:expansions].empty? %>
+  <% for name, expansion in vars[:expansions] %>
+  <tr>
+    <td>
+      <p>
+        <span class='paramTable__name'><%= name %></span>
+      </p>
+      <% if expansion[:description] %>
+        <p class='paramTable__description'><%= expansion[:description] %></p>
+      <% end %>
+    </td>
+    <td><%= friendly_type(expansion[:type]) %></td>
+    <td><%= expansion[:eg] || expansion[:example] %></td>
+  </tr>
+  <% end %>
+  <% end %>
+</table>

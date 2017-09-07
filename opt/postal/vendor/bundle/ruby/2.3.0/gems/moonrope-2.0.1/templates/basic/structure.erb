@@ -1,0 +1,23 @@
+<% set_page_title "#{humanize(structure.name.capitalize)} Structure" %>
+
+<h1><%= humanize(structure.name.capitalize) %> Structure</h1>
+
+<h2>Base Attributes</h2>
+<%= partial 'structure_attributes_list', :structure => structure, :attributes => structure.attributes[:basic].select { |a| a.doc != false } %>
+
+<% full_attrs = structure.attributes[:full].select { |a| a.doc != false } %>
+<% unless full_attrs.empty? %>
+<h2>Extended Attributes</h2>
+<%= partial 'structure_attributes_list', :structure => structure, :attributes => full_attrs %>
+<% end %>
+
+<% if !structure.attributes[:expansion].empty? || !structure.expansions.empty? %>
+<h2>Expansions</h2>
+<p class='text'>
+  Expansions are embedded structures of other objects that are related to the structure
+  that you're viewing. Which expansions are returned by a specific action are shown on that
+  action's documentation however some actions allow you to choose which expansions are
+  returned.
+</p>
+<%= partial 'structure_attributes_list', :structure => structure, :attributes => structure.attributes[:expansion], :expansions => structure.expansions.select { |k,v| v[:doc] != false} %>
+<% end %>

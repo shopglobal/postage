@@ -1,0 +1,168 @@
+<% set_page_title "#{action.title || action.name} - #{action.controller.friendly_name || action.controller.name}" %>
+<% set_active_nav "controller-#{controller.name}" %>
+
+<h1><%= action.title || action.name %></h1>
+<% if action.description %>
+<p class='text'><%= action.description %></p>
+<% end %>
+
+<%= partial 'action_form', :controller => controller, :action => action %>
+
+<h2>URL</h2>
+<p class='apiURLFull'><span><%= full_prefix %>/</span><%= action.controller.name %>/<%= action.name %></p>
+
+<% if action.authenticator_to_use.is_a?(Moonrope::Authenticator) %>
+<% if rule = action.authenticator_to_use.rules[action.access_rule_to_use] %>
+<% if rule[:description] %>
+  <h2>Access</h2>
+  <p class='text'>
+    <%= rule[:description] %>
+    <% if rule[:error_code] %>
+    If not authorised, a <code><%= rule[:error_code] %></code> error will be returned.
+    <% end %>
+  </p>
+<% end %>
+<% end %>
+<% end %>
+
+<h2>Parameters</h2>
+<% if action.params.empty? %>
+  <p><em>This action doesn't support any parameters.</em></p>
+<% else %>
+  <table class='table paramTable'>
+    <thead>
+      <tr>
+        <th width="60%">Parameter</th>
+        <th width="20%">Type</th>
+        <th width="20%">Default</th>
+      </tr>
+    </thead>
+    <% for name, param in action.params %>
+    <tr>
+      <td>
+        <p>
+          <span class='paramTable__name'><%= name %></span>
+          <% if param[:required] && param[:default].nil? %><span class='paramTable__req'>Required</span><% end %>
+        </p>
+        <% if param[:description] %>
+          <p class='paramTable__description'><%= param[:description] %></p>
+        <% end %>
+      </td>
+      <td><%= friendly_type(param[:type]) %></td>
+      <td>
+        <% if param[:default].nil? %>
+          <span class='paramTable__nil'>null</span>
+        <% else %>
+          <%= param[:default] %>
+        <% end %>
+      </td>
+    </tr>
+    <% end %>
+  </table>
+<% end %>
+
+<% unless action.filters.empty? %>
+<h2>Filtering</h2>
+<p class='text'>
+  This action supports filtering. You can filter the results which you receive by
+  providing filters in the <code>filters</code> parameter. The following attributes
+  are supported for filtering.
+</p>
+<table class='table paramTable'>
+  <thead>
+    <tr>
+      <th width="40%">Attribute</th>
+      <th width="60%">Supported Operators</th>
+    </tr>
+  </thead>
+  <% for name, filter in action.filters %>
+  <tr>
+    <td><span class='paramTable__name'><%= name %></span></td>
+    <td><%= filter[:operators].map(&:to_s).join(', ') %></td>
+  </tr>
+  <% end %>
+</table>
+<% end %>
+
+<h2>Errors</h2>
+
+<% if action.errors.empty? %>
+  <p><em>There are no action-specific errors which can be raised.</em></p>
+<% else %>
+  <%= partial "errors_table", :errors => action.errors %>
+<% end %>
+
+<% if action.returns %>
+<h2>Response Data</h2>
+<% if action.returns[:structure] %>
+  <% if action.returns[:type] == :array %>
+    <p class='text'>This action will return an array of <a class='link' href='<%= path("structures/#{action.returns[:structure]}") %>'><%= humanize(action.returns[:structure]) %> structures</a>.</p>
+  <% else %>
+    <p class='text'>This action will return a <a class='link' href='<%= path("structures/#{action.returns[:structure]}") %>'><%= humanize(action.returns[:structure]) %> structure</a>.</p>
+  <% end %>
+
+  <% if opts = action.returns[:structure_opts] %>
+    <% if opts[:paramable] == true %>
+      <p class='text'>
+        You'll receive this structure in the most basic form, without extended data or
+        any expansions. You can choose to receive extended attributes by providing the <code>_full</code> parameter. You can
+        also choose to receive any expansions by providing an array in the <code>_expansions</code>
+        parameter. A full list of expansions can be found on the
+        <a class='link' href='<%= path("structures/#{action.returns[:structure]}") %>'>structure page</a>.
+      </p>
+    <% elsif opts[:paramable].is_a?(Hash) %>
+      <p class='text'>
+        <% if opts[:paramable].has_key?(:full) %>
+          <% if opts[:paramable][:full] %>
+          You'll receive all extended data with this structure, by default.
+          <% else %>
+          You won't receive any extended data with this structure, by default.
+          <% end %>
+          You can change this behaviour by passing true or false in the <code>_full</code>
+          parameter on the request.
+        <% else %>
+        You will only receive basic data for this structure, no extended data is available.
+        <% end %>
+
+        <% if opts[:paramable].has_key?(:expansions) %>
+          <% if opts[:paramable][:expansions].is_a?(Array) %>
+          By default, you'll receive expansions for <b><%= opts[:paramable][:expansions].join(', ') %></b>.
+          You can change these by providing an array of expansion names in the <code>_expansions</code>
+          parameter on the request.
+          <% elsif opts[:paramable][:expansions] == true %>
+          By default, you'll receive all expansions for the structure. You remove any/all of them by
+          providing an array of new expansion names in the <code>_expansions</code> parameter on the
+          request.
+          <% elsif opts[:paramable][:expansions] == false %>
+          By default, you'll receive no expansions for the structure. You can add them by providing
+          an array of new expansion names in the <code>_expansions</code> parameter on the request.
+          You can send <code>true</code> rather than array to receive all expansions.
+          <% end %>
+        <% else %>
+        No expansions will be provided.
+        <% end %>
+      </p>
+    <% else %>
+      <% if opts[:full] %>
+      You'll receive all attributes for this structure (basic and extended attributes).
+      <% else %>
+      You'll only receive basic attributes for this structure.
+      <% end %>
+      <% if opts[:expansions].is_a?(Array) %>
+      You'll receive expansions for <b><%= opts[:expansions].join(', ') %></b>.
+      <% elsif opts[:expansions] == true %>
+      You'll receive all expansions for this stucture.
+      <% end %>
+    <% end %>
+  <% else %>
+    You'll receive just the basic attributes for this structure. No expansions are provided.
+  <% end %>
+<% else %>
+  <p class='text'>
+    This action will return a <%= friendly_type(action.returns[:type]) %>.
+  </p>
+  <% if eg = (action.returns[:eg] || action.returns[:example]) %>
+  <pre class='code'><%= eg %></pre>
+  <% end %>
+<% end %>
+<% end %>
