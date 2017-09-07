@@ -1,0 +1,7 @@
+import_url:   http://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-amd64-disk1.img
+import_date:  2017-07-21
+distribution: Ubuntu
+release:      16.04
+codename:     xenial
+build_arch:   amd64
+build_tag:    ac3b8e78-7a33-4b44-92d6-ee15aa19396b
