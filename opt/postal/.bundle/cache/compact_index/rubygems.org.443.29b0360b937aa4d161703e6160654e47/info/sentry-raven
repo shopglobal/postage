@@ -64,3 +64,6 @@
 2.5.2 faraday:< 1.0&>= 0.7.6|checksum:b5e9240d85e1d05a239f840ca387c587508f37e7638193bd714cc687ae997a8b,ruby:>= 1.9.0
 2.5.3 faraday:< 1.0&>= 0.7.6|checksum:11204c3cbc3cf45ef492449bed0c69aeaf3a321b4cab423c38a17905f95918a7,ruby:>= 1.9.0
 2.6.0 faraday:< 1.0&>= 0.7.6|checksum:a0960fce98f7887a29bf9c111bcdc514e8a1a3aa4733f0a1894418b50d7c9118,ruby:>= 1.9.0
+2.6.1 faraday:< 1.0&>= 0.7.6|checksum:f24f53ef4bf47e1a0e751f5e48621bcbccec5442faaf0e728982e004e11f1477,ruby:>= 1.9.0
+2.6.2 faraday:< 1.0&>= 0.7.6|checksum:b40dfc56756314b3309c17d02238866916f00ed084579cdd0039ff076693b4e5,ruby:>= 1.9.0
+2.6.3 faraday:< 1.0&>= 0.7.6|checksum:b22bd730145357dba7359305fbc82ac512ef58fd005fe1db3db056173db4470f,ruby:>= 1.9.0

@@ -297,3 +297,8 @@
 5.0.5.rc1 concurrent-ruby:>= 1.0.2&~> 1.0,i18n:~> 0.7,minitest:~> 5.1,tzinfo:~> 1.1|checksum:ca8be3d1ee126f0e0b84cb9c932771cd718a524c60f2a63dccd32c33831aff74,ruby:>= 2.2.2,rubygems:> 1.3.1
 5.1.3.rc2 concurrent-ruby:>= 1.0.2&~> 1.0,i18n:~> 0.7,minitest:~> 5.1,tzinfo:~> 1.1|checksum:7f953d0e72f934fc6c7b1a2dfd4f2e2c96910b3891c550a8fed682ee8c303722,ruby:>= 2.2.2,rubygems:> 1.3.1
 5.0.5.rc2 concurrent-ruby:>= 1.0.2&~> 1.0,i18n:~> 0.7,minitest:~> 5.1,tzinfo:~> 1.1|checksum:73d8d516919c22d27f4d16a241cf7e41ddd152c23d2a6317a62e032ae064b36d,ruby:>= 2.2.2,rubygems:> 1.3.1
+5.0.5 concurrent-ruby:>= 1.0.2&~> 1.0,i18n:~> 0.7,minitest:~> 5.1,tzinfo:~> 1.1|checksum:00c714979fffa05846a2d044f24f9569a5ae471b2e20c73fdf3172f1d81edfb1,ruby:>= 2.2.2
+5.1.3.rc3 concurrent-ruby:>= 1.0.2&~> 1.0,i18n:~> 0.7,minitest:~> 5.1,tzinfo:~> 1.1|checksum:6d4320c2e93e9f6239438cf7886b1111956b5d72cb5a7026402fa29021ae571f,ruby:>= 2.2.2,rubygems:> 1.3.1
+5.1.3 concurrent-ruby:>= 1.0.2&~> 1.0,i18n:~> 0.7,minitest:~> 5.1,tzinfo:~> 1.1|checksum:b01fa04345c87526fd22affc4e46dd22bf125c608853d13bf093dab08c45219b,ruby:>= 2.2.2
+5.0.6.rc1 concurrent-ruby:>= 1.0.2&~> 1.0,i18n:~> 0.7,minitest:~> 5.1,tzinfo:~> 1.1|checksum:40f0c77de7e54b6a3581272ce5b6409ae0c61b5bfad3239db46807d8342ce8a3,ruby:>= 2.2.2,rubygems:> 1.3.1
+5.1.4.rc1 concurrent-ruby:>= 1.0.2&~> 1.0,i18n:~> 0.7,minitest:~> 5.1,tzinfo:~> 1.1|checksum:c9984249c0200e9c1f462779294e0cec6bb6c8b95421dc01b579a0efa2db6561,ruby:>= 2.2.2,rubygems:> 1.3.1

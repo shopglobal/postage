@@ -9528,3 +9528,338 @@ puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 [34m[web.1:4317][0m [2017-09-07T06:56:19.304] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
 [34m[web.1:4317][0m [2017-09-07T06:56:19.314] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (8.5ms)
 [34m[web.1:4317][0m [2017-09-07T06:56:19.321] INFO -- : Completed 200 OK in 25ms (Views: 19.7ms | ActiveRecord: 1.0ms)
+[34m[web.1:4317][0m [2017-09-07T07:40:10.811] INFO -- : Started GET "/" for 138.197.99.79 at 2017-09-07 07:40:10 +0000
+[34m[web.1:4317][0m [2017-09-07T07:40:10.825] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T07:40:10.942] INFO -- : Redirected to https://svr2.vsendv.com/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T07:40:10.943] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T07:40:10.947] INFO -- : Completed 302 Found in 118ms (ActiveRecord: 74.9ms)
+[34m[web.1:4317][0m [2017-09-07T07:40:17.089] INFO -- : Started GET "/login?return_to=%2F" for 138.197.99.79 at 2017-09-07 07:40:17 +0000
+[34m[web.1:4317][0m [2017-09-07T07:40:17.091] INFO -- : Processing by SessionsController#new as HTML
+[34m[web.1:4317][0m [2017-09-07T07:40:17.091] INFO -- :   Parameters: {"return_to"=>"/"}
+[34m[web.1:4317][0m [2017-09-07T07:40:17.096] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
+[34m[web.1:4317][0m [2017-09-07T07:40:17.103] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (6.3ms)
+[34m[web.1:4317][0m [2017-09-07T07:40:17.105] INFO -- : Completed 200 OK in 14ms (Views: 9.9ms | ActiveRecord: 0.9ms)
+[34m[web.1:4317][0m [2017-09-07T08:41:33.601] INFO -- : Started GET "/" for 193.63.58.83 at 2017-09-07 08:41:33 +0000
+[34m[web.1:4317][0m [2017-09-07T08:41:33.611] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T08:41:33.634] INFO -- : Redirected to https://104.236.190.141/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T08:41:33.635] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T08:41:33.635] INFO -- : Completed 302 Found in 24ms (ActiveRecord: 4.7ms)
+[34m[web.1:4317][0m [2017-09-07T08:51:53.019] INFO -- : Started GET "/" for 216.218.206.66 at 2017-09-07 08:51:53 +0000
+[34m[web.1:4317][0m [2017-09-07T08:51:53.027] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T08:51:53.041] INFO -- : Redirected to https://138.68.192.134/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T08:51:53.041] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T08:51:53.042] INFO -- : Completed 302 Found in 14ms (ActiveRecord: 2.2ms)
+[34m[web.1:4317][0m [2017-09-07T08:59:43.976] INFO -- : Started GET "/" for 72.239.94.190 at 2017-09-07 08:59:43 +0000
+[34m[web.1:4317][0m [2017-09-07T08:59:43.980] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T08:59:43.990] INFO -- : Redirected to https://vsendv.com/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T08:59:43.990] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T08:59:43.991] INFO -- : Completed 302 Found in 11ms (ActiveRecord: 1.4ms)
+[34m[web.1:4317][0m [2017-09-07T08:59:44.105] INFO -- : Started GET "/login?return_to=%2F" for 72.239.94.190 at 2017-09-07 08:59:44 +0000
+[34m[web.1:4317][0m [2017-09-07T08:59:44.108] INFO -- : Processing by SessionsController#new as HTML
+[34m[web.1:4317][0m [2017-09-07T08:59:44.108] INFO -- :   Parameters: {"return_to"=>"/"}
+[34m[web.1:4317][0m [2017-09-07T08:59:44.111] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
+[34m[web.1:4317][0m [2017-09-07T08:59:44.115] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (4.3ms)
+[34m[web.1:4317][0m [2017-09-07T08:59:44.118] INFO -- : Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+[34m[web.1:4317][0m [2017-09-07T09:13:25.570] INFO -- : Started GET "/" for 38.142.119.210 at 2017-09-07 09:13:25 +0000
+[34m[web.1:4317][0m [2017-09-07T09:13:25.580] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T09:13:25.607] INFO -- : Redirected to https://vsendv.com/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T09:13:25.608] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T09:13:25.609] INFO -- : Completed 302 Found in 28ms (ActiveRecord: 4.6ms)
+[34m[web.1:4317][0m [2017-09-07T09:16:27.607] INFO -- : Started GET "/" for 180.76.15.139 at 2017-09-07 09:16:27 +0000
+[34m[web.1:4317][0m [2017-09-07T09:16:27.616] INFO -- : Processing by OrganizationsController#index as */*
+[34m[web.1:4317][0m [2017-09-07T09:16:27.627] INFO -- : Redirected to https://vsendv.com/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T09:16:27.628] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T09:16:27.628] INFO -- : Completed 302 Found in 12ms (ActiveRecord: 1.5ms)
+[34m[web.1:4317][0m [2017-09-07T09:16:28.441] INFO -- : Started GET "/login?return_to=%2F" for 180.76.15.157 at 2017-09-07 09:16:28 +0000
+[34m[web.1:4317][0m [2017-09-07T09:16:28.445] INFO -- : Processing by SessionsController#new as */*
+[34m[web.1:4317][0m [2017-09-07T09:16:28.445] INFO -- :   Parameters: {"return_to"=>"/"}
+[34m[web.1:4317][0m [2017-09-07T09:16:28.450] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
+[34m[web.1:4317][0m [2017-09-07T09:16:28.458] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (7.9ms)
+[34m[web.1:4317][0m [2017-09-07T09:16:28.465] INFO -- : Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+[34m[web.1:4317][0m [2017-09-07T09:17:42.907] INFO -- : Started GET "/" for 207.46.228.208 at 2017-09-07 09:17:42 +0000
+[34m[web.1:4317][0m [2017-09-07T09:17:42.915] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T09:17:42.931] INFO -- : Redirected to https://104.236.190.141/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T09:17:42.932] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T09:17:42.933] INFO -- : Completed 302 Found in 18ms (ActiveRecord: 2.5ms)
+[34m[web.1:4317][0m [2017-09-07T09:17:43.960] INFO -- : Started GET "/login" for 207.46.228.208 at 2017-09-07 09:17:43 +0000
+[34m[web.1:4317][0m [2017-09-07T09:17:43.966] INFO -- : Processing by SessionsController#new as HTML
+[34m[web.1:4317][0m [2017-09-07T09:17:43.980] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
+[34m[web.1:4317][0m [2017-09-07T09:17:43.987] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (6.6ms)
+[34m[web.1:4317][0m [2017-09-07T09:17:43.993] INFO -- : Completed 200 OK in 26ms (Views: 15.1ms | ActiveRecord: 1.4ms)
+[34m[web.1:4317][0m [2017-09-07T09:17:44.756] INFO -- : Started OPTIONS "/" for 207.46.228.208 at 2017-09-07 09:17:44 +0000
+[34m[web.1:4317][0m [2017-09-07T09:17:44.770] FATAL -- :   
+[34m[web.1:4317][0m [2017-09-07T09:17:44.770] FATAL -- : ActionController::RoutingError (No route matches [OPTIONS] "/"):
+[34m[web.1:4317][0m [2017-09-07T09:17:44.770] FATAL -- :   
+[34m[web.1:4317][0m [2017-09-07T09:17:44.771] FATAL -- : actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+secure_headers (3.4.1) lib/secure_headers/middleware.rb:12:in `call'
+sentry-raven (2.1.0) lib/raven/integrations/rack.rb:50:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/commonlogger.rb:38:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[34m[web.1:4317][0m [2017-09-07T09:17:45.573] INFO -- : Started GET "/Robots.txt" for 207.46.228.208 at 2017-09-07 09:17:45 +0000
+[34m[web.1:4317][0m [2017-09-07T09:17:45.576] FATAL -- :   
+[34m[web.1:4317][0m [2017-09-07T09:17:45.576] FATAL -- : ActionController::RoutingError (No route matches [GET] "/Robots.txt"):
+[34m[web.1:4317][0m [2017-09-07T09:17:45.578] FATAL -- :   
+[34m[web.1:4317][0m [2017-09-07T09:17:45.578] FATAL -- : actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+secure_headers (3.4.1) lib/secure_headers/middleware.rb:12:in `call'
+sentry-raven (2.1.0) lib/raven/integrations/rack.rb:50:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/commonlogger.rb:38:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[34m[web.1:4317][0m [2017-09-07T09:17:46.336] INFO -- : Started GET "/SiteMap.xml" for 207.46.228.208 at 2017-09-07 09:17:46 +0000
+[34m[web.1:4317][0m [2017-09-07T09:17:46.340] FATAL -- :   
+[34m[web.1:4317][0m [2017-09-07T09:17:46.340] FATAL -- : ActionController::RoutingError (No route matches [GET] "/SiteMap.xml"):
+[34m[web.1:4317][0m [2017-09-07T09:17:46.340] FATAL -- :   
+[34m[web.1:4317][0m [2017-09-07T09:17:46.340] FATAL -- : actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+secure_headers (3.4.1) lib/secure_headers/middleware.rb:12:in `call'
+sentry-raven (2.1.0) lib/raven/integrations/rack.rb:50:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/commonlogger.rb:38:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[34m[web.1:4317][0m [2017-09-07T09:17:47.177] INFO -- : Started POST "/" for 207.46.228.208 at 2017-09-07 09:17:47 +0000
+[34m[web.1:4317][0m [2017-09-07T09:17:47.180] FATAL -- :   
+[34m[web.1:4317][0m [2017-09-07T09:17:47.180] FATAL -- : ActionController::RoutingError (No route matches [POST] "/"):
+[34m[web.1:4317][0m [2017-09-07T09:17:47.181] FATAL -- :   
+[34m[web.1:4317][0m [2017-09-07T09:17:47.181] FATAL -- : actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+secure_headers (3.4.1) lib/secure_headers/middleware.rb:12:in `call'
+sentry-raven (2.1.0) lib/raven/integrations/rack.rb:50:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/commonlogger.rb:38:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+[34m[web.1:4317][0m [2017-09-07T10:08:05.894] INFO -- : Started GET "/" for 184.105.139.67 at 2017-09-07 10:08:05 +0000
+[34m[web.1:4317][0m [2017-09-07T10:08:05.903] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T10:08:05.931] INFO -- : Redirected to https://104.236.190.141/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T10:08:05.932] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T10:08:05.933] INFO -- : Completed 302 Found in 29ms (ActiveRecord: 3.2ms)
+[34m[web.1:4317][0m [2017-09-07T10:11:58.967] INFO -- : Started GET "/" for 45.55.194.79 at 2017-09-07 10:11:58 +0000
+[34m[web.1:4317][0m [2017-09-07T10:11:58.978] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T10:11:59.010] INFO -- : Redirected to https://svr3.vsendv.com/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T10:11:59.010] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T10:11:59.011] INFO -- : Completed 302 Found in 32ms (ActiveRecord: 4.3ms)
+[34m[web.1:4317][0m [2017-09-07T10:12:03.244] INFO -- : Started GET "/login?return_to=%2F" for 45.55.194.79 at 2017-09-07 10:12:03 +0000
+[34m[web.1:4317][0m [2017-09-07T10:12:03.248] INFO -- : Processing by SessionsController#new as HTML
+[34m[web.1:4317][0m [2017-09-07T10:12:03.248] INFO -- :   Parameters: {"return_to"=>"/"}
+[34m[web.1:4317][0m [2017-09-07T10:12:03.406] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
+[34m[web.1:4317][0m [2017-09-07T10:12:03.412] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (4.8ms)
+[34m[web.1:4317][0m [2017-09-07T10:12:03.415] INFO -- : Completed 200 OK in 166ms (Views: 157.4ms | ActiveRecord: 2.0ms)
+[34m[web.1:4317][0m [2017-09-07T10:19:09.795] INFO -- : Started GET "/" for 138.197.66.62 at 2017-09-07 10:19:09 +0000
+[34m[web.1:4317][0m [2017-09-07T10:19:09.799] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T10:19:09.808] INFO -- : Redirected to https://svr7.vsendv.com/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T10:19:09.808] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T10:19:09.808] INFO -- : Completed 302 Found in 9ms (ActiveRecord: 1.7ms)
+[34m[web.1:4317][0m [2017-09-07T10:19:12.385] INFO -- : Started GET "/login?return_to=%2F" for 138.197.66.62 at 2017-09-07 10:19:12 +0000
+[34m[web.1:4317][0m [2017-09-07T10:19:12.388] INFO -- : Processing by SessionsController#new as HTML
+[34m[web.1:4317][0m [2017-09-07T10:19:12.388] INFO -- :   Parameters: {"return_to"=>"/"}
+[34m[web.1:4317][0m [2017-09-07T10:19:12.398] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
+[34m[web.1:4317][0m [2017-09-07T10:19:12.407] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (7.7ms)
+[34m[web.1:4317][0m [2017-09-07T10:19:12.411] INFO -- : Completed 200 OK in 23ms (Views: 16.4ms | ActiveRecord: 0.8ms)
+[34m[web.1:4317][0m [2017-09-07T10:53:10.709] INFO -- : Started HEAD "/" for 138.246.253.19 at 2017-09-07 10:53:10 +0000
+[34m[web.1:4317][0m [2017-09-07T10:53:10.715] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T10:53:10.727] INFO -- : Redirected to https://vsendv.com/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T10:53:10.728] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T10:53:10.728] INFO -- : Completed 302 Found in 12ms (ActiveRecord: 2.0ms)
+[34m[web.1:4317][0m [2017-09-07T12:02:25.311] INFO -- : Started GET "/" for 46.227.136.2 at 2017-09-07 12:02:25 +0000
+[34m[web.1:4317][0m [2017-09-07T12:02:25.317] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T12:02:25.330] INFO -- : Redirected to https://138.68.192.134/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T12:02:25.331] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T12:02:25.331] INFO -- : Completed 302 Found in 14ms (ActiveRecord: 2.5ms)
+[34m[web.1:4317][0m [2017-09-07T12:02:26.222] INFO -- : Started GET "/login?return_to=%2F" for 46.227.136.2 at 2017-09-07 12:02:26 +0000
+[34m[web.1:4317][0m [2017-09-07T12:02:26.224] INFO -- : Processing by SessionsController#new as HTML
+[34m[web.1:4317][0m [2017-09-07T12:02:26.224] INFO -- :   Parameters: {"return_to"=>"/"}
+[34m[web.1:4317][0m [2017-09-07T12:02:26.227] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
+[34m[web.1:4317][0m [2017-09-07T12:02:26.233] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (5.0ms)
+[34m[web.1:4317][0m [2017-09-07T12:02:26.236] INFO -- : Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+[34m[web.1:4317][0m [2017-09-07T12:32:51.302] INFO -- : Started GET "/" for 193.63.58.83 at 2017-09-07 12:32:51 +0000
+[34m[web.1:4317][0m [2017-09-07T12:32:51.312] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T12:32:51.335] INFO -- : Redirected to https://138.68.192.134/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T12:32:51.335] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T12:32:51.336] INFO -- : Completed 302 Found in 24ms (ActiveRecord: 3.3ms)
+[34m[web.1:4317][0m [2017-09-07T14:53:14.590] INFO -- : Started GET "/" for 138.197.75.68 at 2017-09-07 14:53:14 +0000
+[34m[web.1:4317][0m [2017-09-07T14:53:14.596] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T14:53:14.610] INFO -- : Redirected to https://mcsv.vsendv.com/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T14:53:14.610] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T14:53:14.611] INFO -- : Completed 302 Found in 15ms (ActiveRecord: 2.5ms)
+[34m[web.1:4317][0m [2017-09-07T14:53:18.753] INFO -- : Started GET "/login?return_to=%2F" for 138.197.75.68 at 2017-09-07 14:53:18 +0000
+[34m[web.1:4317][0m [2017-09-07T14:53:18.756] INFO -- : Processing by SessionsController#new as HTML
+[34m[web.1:4317][0m [2017-09-07T14:53:18.757] INFO -- :   Parameters: {"return_to"=>"/"}
+[34m[web.1:4317][0m [2017-09-07T14:53:18.768] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
+[34m[web.1:4317][0m [2017-09-07T14:53:18.779] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (10.7ms)
+[34m[web.1:4317][0m [2017-09-07T14:53:18.784] INFO -- : Completed 200 OK in 27ms (Views: 20.2ms | ActiveRecord: 1.0ms)
+[34m[web.1:4317][0m [2017-09-07T15:30:19.582] INFO -- : Started GET "/" for 45.55.50.225 at 2017-09-07 15:30:19 +0000
+[34m[web.1:4317][0m [2017-09-07T15:30:19.588] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T15:30:19.599] INFO -- : Redirected to https://www.vsendv.com/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T15:30:19.599] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T15:30:19.600] INFO -- : Completed 302 Found in 11ms (ActiveRecord: 1.5ms)
+[34m[web.1:4317][0m [2017-09-07T15:30:23.733] INFO -- : Started GET "/login?return_to=%2F" for 45.55.50.225 at 2017-09-07 15:30:23 +0000
+[34m[web.1:4317][0m [2017-09-07T15:30:23.735] INFO -- : Processing by SessionsController#new as HTML
+[34m[web.1:4317][0m [2017-09-07T15:30:23.735] INFO -- :   Parameters: {"return_to"=>"/"}
+[34m[web.1:4317][0m [2017-09-07T15:30:23.740] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
+[34m[web.1:4317][0m [2017-09-07T15:30:23.743] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (3.1ms)
+[34m[web.1:4317][0m [2017-09-07T15:30:23.745] INFO -- : Completed 200 OK in 10ms (Views: 6.1ms | ActiveRecord: 0.8ms)
+[34m[web.1:4317][0m [2017-09-07T17:40:35.521] INFO -- : Started GET "/" for 139.162.116.133 at 2017-09-07 17:40:35 +0000
+[34m[web.1:4317][0m [2017-09-07T17:40:35.527] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T17:40:35.539] INFO -- : Redirected to https://104.236.190.141/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T17:40:35.539] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T17:40:35.540] INFO -- : Completed 302 Found in 13ms (ActiveRecord: 1.4ms)
+[34m[web.1:4317][0m [2017-09-07T17:40:35.997] INFO -- : Started GET "/login?return_to=%2F" for 139.162.116.133 at 2017-09-07 17:40:35 +0000
+[34m[web.1:4317][0m [2017-09-07T17:40:36.002] INFO -- : Processing by SessionsController#new as HTML
+[34m[web.1:4317][0m [2017-09-07T17:40:36.002] INFO -- :   Parameters: {"return_to"=>"/"}
+[34m[web.1:4317][0m [2017-09-07T17:40:36.015] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
+[34m[web.1:4317][0m [2017-09-07T17:40:36.021] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (5.7ms)
+[34m[web.1:4317][0m [2017-09-07T17:40:36.025] INFO -- : Completed 200 OK in 22ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+[34m[web.1:4317][0m [2017-09-07T18:14:46.774] INFO -- : Started GET "/" for 180.76.15.11 at 2017-09-07 18:14:46 +0000
+[34m[web.1:4317][0m [2017-09-07T18:14:46.780] INFO -- : Processing by OrganizationsController#index as */*
+[34m[web.1:4317][0m [2017-09-07T18:14:46.790] INFO -- : Redirected to https://vsendv.com/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T18:14:46.790] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T18:14:46.791] INFO -- : Completed 302 Found in 11ms (ActiveRecord: 2.1ms)
+[34m[web.1:4317][0m [2017-09-07T18:14:47.584] INFO -- : Started GET "/login?return_to=%2F" for 180.76.15.159 at 2017-09-07 18:14:47 +0000
+[34m[web.1:4317][0m [2017-09-07T18:14:47.586] INFO -- : Processing by SessionsController#new as */*
+[34m[web.1:4317][0m [2017-09-07T18:14:47.586] INFO -- :   Parameters: {"return_to"=>"/"}
+[34m[web.1:4317][0m [2017-09-07T18:14:47.590] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
+[34m[web.1:4317][0m [2017-09-07T18:14:47.593] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (3.3ms)
+[34m[web.1:4317][0m [2017-09-07T18:14:47.596] INFO -- : Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+[34m[web.1:4317][0m [2017-09-07T18:24:57.790] INFO -- : Started GET "/" for 60.191.38.77 at 2017-09-07 18:24:57 +0000
+[34m[web.1:4317][0m [2017-09-07T18:24:57.796] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T18:24:57.810] INFO -- : Redirected to https://104.236.190.141/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T18:24:57.810] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T18:24:57.811] INFO -- : Completed 302 Found in 14ms (ActiveRecord: 2.1ms)
+[34m[web.1:4317][0m [2017-09-07T18:52:44.485] INFO -- : Started GET "/" for 45.55.170.140 at 2017-09-07 18:52:44 +0000
+[34m[web.1:4317][0m [2017-09-07T18:52:44.495] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T18:52:44.516] INFO -- : Redirected to https://svr5.vsendv.com/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T18:52:44.516] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T18:52:44.517] INFO -- : Completed 302 Found in 22ms (ActiveRecord: 4.5ms)
+[34m[web.1:4317][0m [2017-09-07T18:52:54.267] INFO -- : Started GET "/login?return_to=%2F" for 45.55.170.140 at 2017-09-07 18:52:54 +0000
+[34m[web.1:4317][0m [2017-09-07T18:52:54.272] INFO -- : Processing by SessionsController#new as HTML
+[34m[web.1:4317][0m [2017-09-07T18:52:54.272] INFO -- :   Parameters: {"return_to"=>"/"}
+[34m[web.1:4317][0m [2017-09-07T18:52:54.283] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
+[34m[web.1:4317][0m [2017-09-07T18:52:54.291] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (7.0ms)
+[34m[web.1:4317][0m [2017-09-07T18:52:54.297] INFO -- : Completed 200 OK in 25ms (Views: 14.9ms | ActiveRecord: 1.0ms)
+[34m[web.1:4317][0m [2017-09-07T20:50:51.984] INFO -- : Started GET "/" for 138.197.71.151 at 2017-09-07 20:50:51 +0000
+[34m[web.1:4317][0m [2017-09-07T20:50:51.989] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T20:50:52.003] INFO -- : Redirected to https://svr5.vsendv.com/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T20:50:52.003] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T20:50:52.007] INFO -- : Completed 302 Found in 17ms (ActiveRecord: 3.5ms)
+[34m[web.1:4317][0m [2017-09-07T20:50:55.441] INFO -- : Started GET "/login?return_to=%2F" for 138.197.71.151 at 2017-09-07 20:50:55 +0000
+[34m[web.1:4317][0m [2017-09-07T20:50:55.444] INFO -- : Processing by SessionsController#new as HTML
+[34m[web.1:4317][0m [2017-09-07T20:50:55.444] INFO -- :   Parameters: {"return_to"=>"/"}
+[34m[web.1:4317][0m [2017-09-07T20:50:55.451] INFO -- :   Rendering sessions/new.html.haml within layouts/sub
+[34m[web.1:4317][0m [2017-09-07T20:50:55.457] INFO -- :   Rendered sessions/new.html.haml within layouts/sub (5.6ms)
+[34m[web.1:4317][0m [2017-09-07T20:50:55.462] INFO -- : Completed 200 OK in 18ms (Views: 11.8ms | ActiveRecord: 1.9ms)
+[34m[web.1:4317][0m [2017-09-07T21:06:17.463] INFO -- : Started GET "/" for 118.193.31.222 at 2017-09-07 21:06:17 +0000
+[34m[web.1:4317][0m [2017-09-07T21:06:17.467] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T21:06:17.476] INFO -- : Redirected to https://104.236.190.141/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T21:06:17.477] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T21:06:17.477] INFO -- : Completed 302 Found in 9ms (ActiveRecord: 1.5ms)
+[34m[web.1:4317][0m [2017-09-07T21:22:53.550] INFO -- : Started GET "/" for 139.162.78.135 at 2017-09-07 21:22:53 +0000
+[34m[web.1:4317][0m [2017-09-07T21:22:53.554] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T21:22:53.564] INFO -- : Redirected to https://138.68.192.134/login?return_to=%2F
+[34m[web.1:4317][0m [2017-09-07T21:22:53.564] INFO -- : Filter chain halted as :login_required rendered or redirected
+[34m[web.1:4317][0m [2017-09-07T21:22:53.565] INFO -- : Completed 302 Found in 10ms (ActiveRecord: 3.1ms)
+[28870] [2017-09-07T21:25:40.550] INFO -- : ** [Raven] Raven 2.1.0 configured not to capture errors.
+[34m[web.1:4317][0m [2017-09-07T21:26:05.922] INFO -- : Started POST "/login" for 72.239.94.190 at 2017-09-07 21:26:05 +0000
+[34m[web.1:4317][0m [2017-09-07T21:26:05.928] INFO -- : Processing by SessionsController#create as HTML
+[34m[web.1:4317][0m [2017-09-07T21:26:05.928] INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"SGdMvFFbVroJXhOVcC7IUSHAD79GWts44wwLOqjkw5JxgnLVxi8/tvjnsj73MB628rmyTs2fF4mM4G5C7xDACg==", "return_to"=>"/", "email_address"=>"support@vsendv.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+[34m[web.1:4317][0m [2017-09-07T21:26:06.076] INFO -- : Redirected to https://vsendv.com/
+[34m[web.1:4317][0m [2017-09-07T21:26:06.076] INFO -- : Completed 302 Found in 148ms (ActiveRecord: 6.1ms)
+[34m[web.1:4317][0m [2017-09-07T21:26:06.185] INFO -- : Started GET "/" for 72.239.94.190 at 2017-09-07 21:26:06 +0000
+[34m[web.1:4317][0m [2017-09-07T21:26:06.186] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T21:26:06.221] INFO -- :   Rendering organizations/index.html.haml within layouts/application
+[34m[web.1:4317][0m [2017-09-07T21:26:06.222] INFO -- :   Rendered organizations/index.html.haml within layouts/application (1.4ms)
+[34m[web.1:4317][0m [2017-09-07T21:26:06.230] INFO -- : Completed 500 Internal Server Error in 44ms (ActiveRecord: 15.8ms)
+[34m[web.1:4317][0m [2017-09-07T21:26:06.232] FATAL -- :   
+[34m[web.1:4317][0m [2017-09-07T21:26:06.232] FATAL -- : ActionView::Template::Error (Illegal nesting: nesting within a tag that already has content is illegal.):
+[34m[web.1:4317][0m [2017-09-07T21:26:06.233] FATAL -- :     1: /bind
+    2:     %title #{page_title.reverse.join(' - ')}
+    3:     = csrf_meta_tags
+    4:     = stylesheet_link_tag 'application/application', 'data-turbolinks-track' => 'reload'
+    5:     = javascript_include_tag 'application/application', 'data-turbolinks-track' => 'reload'
+[34m[web.1:4317][0m [2017-09-07T21:26:06.233] FATAL -- :   
+[34m[web.1:4317][0m [2017-09-07T21:26:06.233] FATAL -- : app/views/layouts/application.html.haml:2
+[29165] [2017-09-07T21:26:33.468] INFO -- : ** [Raven] Raven 2.1.0 configured not to capture errors.
+[31m[fast.3:29195][0m [2017-09-07T21:26:45.099] INFO -- : ** [Raven] Raven 2.1.0 configured not to capture errors.
+[31m[requeuer.3:29200][0m [2017-09-07T21:26:45.248] INFO -- : ** [Raven] Raven 2.1.0 configured not to capture errors.
+[31m[cron.3:29211][0m [2017-09-07T21:26:45.702] INFO -- : ** [Raven] Raven 2.1.0 configured not to capture errors.
+[34m[smtp.1:29202][0m [2017-09-07T21:26:46.034] INFO -- : ** [Raven] Raven 2.1.0 configured not to capture errors.
+[34m[web.1:4317][0m [2017-09-07T21:26:46.681] INFO -- : ** [Raven] Raven 2.1.0 configured not to capture errors.
+[31m[worker.3:29194][0m [2017-09-07T21:26:46.782] INFO -- : ** [Raven] Raven 2.1.0 configured not to capture errors.
+[34m[web.1:4317][0m [2017-09-07T21:26:46.864] INFO -- : Started GET "/" for 72.239.94.190 at 2017-09-07 21:26:46 +0000
+[34m[web.1:4317][0m [2017-09-07T21:26:46.905] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T21:26:47.106] INFO -- :   Rendering organizations/index.html.haml within layouts/application
+[34m[web.1:4317][0m [2017-09-07T21:26:47.157] INFO -- :   Rendered organizations/index.html.haml within layouts/application (50.5ms)
+[34m[web.1:4317][0m [2017-09-07T21:26:47.174] INFO -- : Completed 200 OK in 269ms (Views: 76.0ms | ActiveRecord: 20.0ms)
+[31m[fast.3:29297][0m [2017-09-07T21:26:52.528] INFO -- : ** [Raven] Raven 2.1.0 configured not to capture errors.
+[34m[web.1:4317][0m [2017-09-07T21:26:54.159] INFO -- : Started POST "/persist" for 72.239.94.190 at 2017-09-07 21:26:54 +0000
+[34m[web.1:4317][0m [2017-09-07T21:26:54.162] INFO -- : Processing by SessionsController#persist as JSON
+[34m[web.1:4317][0m [2017-09-07T21:26:54.183] INFO -- :   Rendering text template
+[34m[web.1:4317][0m [2017-09-07T21:26:54.184] INFO -- :   Rendered text template (0.0ms)
+[34m[web.1:4317][0m [2017-09-07T21:26:54.184] INFO -- : Completed 200 OK in 22ms (Views: 1.4ms | ActiveRecord: 5.5ms)
+[31m[fast.3:29319][0m [2017-09-07T21:26:58.168] INFO -- : ** [Raven] Raven 2.1.0 configured not to capture errors.
+[34m[web.1:4317][0m [2017-09-07T21:27:02.228] INFO -- : Started GET "/settings" for 72.239.94.190 at 2017-09-07 21:27:02 +0000
+[34m[web.1:4317][0m [2017-09-07T21:27:02.237] INFO -- : Processing by UserController#edit as HTML
+[34m[web.1:4317][0m [2017-09-07T21:27:02.274] INFO -- :   Rendering user/edit.html.haml within layouts/application
+[34m[web.1:4317][0m [2017-09-07T21:27:02.820] INFO -- :   Rendered user/edit.html.haml within layouts/application (545.4ms)
+[34m[web.1:4317][0m [2017-09-07T21:27:02.823] INFO -- : Completed 200 OK in 585ms (Views: 551.7ms | ActiveRecord: 9.2ms)
+[31m[fast.3:29341][0m [2017-09-07T21:27:04.576] INFO -- : ** [Raven] Raven 2.1.0 configured not to capture errors.
+[31m[fast.3:29363][0m [2017-09-07T21:27:10.167] INFO -- : ** [Raven] Raven 2.1.0 configured not to capture errors.
+[34m[web.1:4317][0m [2017-09-07T21:27:16.161] INFO -- : Started GET "/" for 72.239.94.190 at 2017-09-07 21:27:16 +0000
+[34m[web.1:4317][0m [2017-09-07T21:27:16.164] INFO -- : Processing by OrganizationsController#index as HTML
+[34m[web.1:4317][0m [2017-09-07T21:27:16.183] INFO -- :   Rendering organizations/index.html.haml within layouts/application
+[34m[web.1:4317][0m [2017-09-07T21:27:16.185] INFO -- :   Rendered organizations/index.html.haml within layouts/application (1.0ms)
+[34m[web.1:4317][0m [2017-09-07T21:27:16.187] INFO -- : Completed 200 OK in 23ms (Views: 3.9ms | ActiveRecord: 4.8ms)
+[31m[fast.3:29385][0m [2017-09-07T21:27:16.600] INFO -- : ** [Raven] Raven 2.1.0 configured not to capture errors.

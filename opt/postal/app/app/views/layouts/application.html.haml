@@ -1,4 +1,6 @@
-/bind
+!!!
+%html.main
+  %head
     %title #{page_title.reverse.join(' - ')}
     = csrf_meta_tags
     = stylesheet_link_tag 'application/application', 'data-turbolinks-track' => 'reload'
@@ -51,4 +53,3 @@
 
     - if logged_in?
       <!--- Postal Version #{Postal.version} -->
-

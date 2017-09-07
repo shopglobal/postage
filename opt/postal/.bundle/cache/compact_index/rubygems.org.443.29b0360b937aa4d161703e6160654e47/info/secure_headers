@@ -73,3 +73,6 @@
 4.0.0.alpha01 useragent:>= 0.15.0|checksum:a82678bf51e0f329c5fe9b95323db3fb05380a6059fe826d3d4d25cf57a03274,rubygems:> 1.3.1
 4.0.0.alpha02 useragent:>= 0.15.0|checksum:b1a13aba3aa52697ef612c69eb74fd7faa7f127032800eb00eb8dacf57a7b304,rubygems:> 1.3.1
 4.0.0.alpha03 useragent:>= 0.15.0|checksum:34f19e336eff03895ceb742f5e0e534ebc0477882ee80d1366ee8dc8341810b6,rubygems:> 1.3.1
+3.7.0 useragent:>= 0|checksum:45326723f29f1e7073b93e2c0dca6700f37eaabb5879a44afc222bb4c4179140
+3.7.1 useragent:>= 0|checksum:486b5cc929ac4ecbbf555959ced304dba261664f1834344231275b3a4a65305a
+4.0.0.alpha04 useragent:>= 0.15.0|checksum:5cb722d509f10ccaaf07e257218788eafe87b10104d8d11fa9c46b68e72a494c,rubygems:> 1.3.1

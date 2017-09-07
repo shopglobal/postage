@@ -21,3 +21,4 @@
 1.5.1 rack:>= 0.4|checksum:64cbe38c89f0f23a7b858640336f6a0f0ab9e22c7cb64d0b7772d8cde70eb26c,ruby:>= 1.9.3
 1.6.1 rack:>= 0.4|checksum:613a4e88661ea7014211d39e5f99e18f35f6aa37ac7ef96001160131c0311490,ruby:>= 1.9.3
 1.7.0 rack:>= 0.4|checksum:12e21f063e49792ee59ac4b437c52ae1a1ceb991242ef11edbc2dc5aa14eb592,ruby:>= 1.9.3
+1.7.1 rack:>= 0.4|checksum:43cb11d625771bd331558b19aabafacb313b4fdcb58d3f99f98a2aac0f55c945,ruby:>= 1.9.3

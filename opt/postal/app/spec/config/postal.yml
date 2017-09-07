@@ -1,10 +1,10 @@
 web:
-  host: mail.vsendv.com 
+  host: postal.example.com
   protocol: https
 
 fast_server:
   enabled: true
-  bind_address: 138.68.192.134
+  bind_address: 0.0.0.0
   port: 5010
   ssl_port: 5011
 
@@ -32,14 +32,22 @@ rabbitmq:
 smtp_server:
   port: 2525
 
-dns: 
+dns:
   mx_records:
-    - mx.mail.vsendv.com
-  smtp_server_hostname: mail.vsendv.com
-  spf_include: spf.mail.vsendv.com
-  return_path: rp.mail.vsendv.com
-  route_domain: routes.mail.vsendv.com
-  track_domain: track.mail.vsendv.com
+    - mx.postal.example.com
+  smtp_server_hostname: postal.example.com
+  spf_include: spf.postal.example.com
+  return_path: rp.postal.example.com
+  route_domain: routes.postal.example.com
+  track_domain: track.postal.example.com
+
+smtp:
+  host: 127.0.0.1
+  port: 2525
+  username:
+  password:
+  from_name: Postal
+  from_address: postal@yourdomain.com
 
 rails:
   environment: test

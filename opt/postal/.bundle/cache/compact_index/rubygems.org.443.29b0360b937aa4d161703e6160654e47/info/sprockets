@@ -96,3 +96,4 @@
 4.0.0.beta3 concurrent-ruby:~> 1.0,rack:< 3&> 1|checksum:6bec82681537392cc94ce8cdf435b3184ae2d2f9986d6b4615aae5bac97d7ff6,ruby:>= 2.0.0,rubygems:> 1.3.1
 4.0.0.beta4 concurrent-ruby:~> 1.0,rack:< 3&> 1|checksum:52290d25900baddf30132255ffb4a717ba19b6d6eafe4073c09dc2d169897ff6,ruby:>= 2.0.0,rubygems:> 1.3.1
 3.7.1 concurrent-ruby:~> 1.0,rack:< 3&> 1|checksum:59a59156f42e2b98811117f1e362efae8e79987c4f271fcfdbd2770ecbfc636b,ruby:>= 1.9.3
+4.0.0.beta5 concurrent-ruby:~> 1.0,rack:< 3&> 1|checksum:0e9b1e176eabe6e077650a3012f14f295b808dc3976b96c5229474fbe5efc1af,ruby:>= 2.2.0,rubygems:> 1.3.1

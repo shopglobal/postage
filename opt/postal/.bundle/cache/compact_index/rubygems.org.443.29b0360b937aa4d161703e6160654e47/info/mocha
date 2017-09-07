@@ -62,3 +62,4 @@
 1.1.0 metaclass:~> 0.0.1|checksum:f1d3385b5bed21bdcdcb9d26fd10139b2c7a67b1572e789ec014edf5acadf680
 1.2.0 metaclass:~> 0.0.1|checksum:0526557184a50ed7aa5554b9e3e61267cb96e8dbe08c3b2086f6212c623fec73
 1.2.1 metaclass:~> 0.0.1|checksum:7de99b005aa41dc46841442afe468451a145f2c6d9b10fac0c23f0d911bef50d
+1.3.0 metaclass:~> 0.0.1|checksum:22f247ad94e92cef32baac2e671d1d7262f165dc933ead1940cf874c3d1fc25e,ruby:>= 1.8.7
